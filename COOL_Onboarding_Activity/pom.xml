@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.activity</groupId>
+    <artifactId>COOL_Onboarding_Activity</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.activity.bondprice.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <!-- Maven Shade Plugin for creating a fat JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.4.1</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!--        User-Added Dependencies-->
+        <!--        Kafka-->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+        <!--        JSON Processing-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.15.2</version>
+        </dependency>
+        <!-- Logging (SLF4J + Logback) -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+
+        <!--ION Dependencies-->
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>modules</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>boot</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.xrs</groupId>
+            <artifactId>xrs_lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>xrs_talk_helper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>xrs_paging_helper</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>application_server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>service_manager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>dependency_manager</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.talk</groupId>
+            <artifactId>talk.ionbus</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>workflow_engine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>tracing</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>slf4j-jmkv</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.iontrading.isf</groupId>
+            <artifactId>concurrent</artifactId>
+        </dependency>
+    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.iontrading</groupId>
+                <artifactId>ion20-3rdparty</artifactId>
+                <version>4.0.2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.iontrading</groupId>
+                <artifactId>ion20-deps</artifactId>
+                <version>4.0.2</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
+</project>
