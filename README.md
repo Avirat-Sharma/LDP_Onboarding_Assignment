@@ -1,3 +1,7 @@
+# Initial Docker commands:
+- docker compose -f "C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\docker.compose.yml" up -d
+- docker ps
+
 # Producer command:
 - docker exec -it kafka kafka-console-consumer --topic bond-prices --bootstrap-server localhost:9092 --from-beginning
 
