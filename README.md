@@ -1,11 +1,11 @@
-#producer command:
+# Producer command:
 - docker exec -it kafka kafka-console-consumer --topic bond-prices --bootstrap-server localhost:9092 --from-beginning
 
-#consumer command:
+# Consumer command:
 - docker exec -it kafka kafka-console-consumer --topic enhanced-bond-prices --bootstrap-server localhost:9092 --from-beginning
 
 
-# commands for deleting messages for fresh testing:
+# Commands for deleting messages for fresh testing:
 
 - docker exec -it kafka kafka-topics --delete --topic bond-prices --bootstrap-server localhost:9092
 - docker exec -it kafka kafka-topics --delete --topic enhanced-bond-prices --bootstrap-server localhost:9092
