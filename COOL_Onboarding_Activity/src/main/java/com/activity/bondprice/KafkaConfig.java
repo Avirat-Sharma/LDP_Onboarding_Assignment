@@ -22,4 +22,6 @@ public class KafkaConfig {
         props.put("acks", "all"); // Ensure message is fully committed before acknowledgment
         return props;
     }
+
+
 }

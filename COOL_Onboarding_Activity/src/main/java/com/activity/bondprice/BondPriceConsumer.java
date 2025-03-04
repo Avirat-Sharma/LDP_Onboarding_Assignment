@@ -13,20 +13,28 @@ import java.util.Properties;
 public class BondPriceConsumer {
     private static final Logger logger = LoggerFactory.getLogger(BondPriceConsumer.class);
     private KafkaConsumer<String, String> consumer;
+    private BondPriceProducer producer; // ✅ Add producer for publishing enhanced prices
 
-    public BondPriceConsumer() {
+    public BondPriceConsumer(BondPriceProducer producer) { // ✅ Accept producer in constructor
         Properties props = KafkaConfig.getConsumerProperties();
         consumer = new KafkaConsumer<>(props);
         consumer.subscribe(Collections.singletonList("bond-prices"));
+        this.producer = producer; // ✅ Assign producer
     }
 
-    public void consume(BondPriceProcessor processor, BondPriceProducer producer) {
+    public void consume(BondPriceProcessor processor) {
         while (true) {
+
             ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
             for (ConsumerRecord<String, String> record : records) {
-                logger.info("Received bond price: {}", record.value());
-                String enhancedPrice = processor.enhanceBondPrice(record.value());
-                producer.send(enhancedPrice);
+                logger.info("Received raw bond price message: Key = {}, Value = {}", record.key(), record.value());
+                logger.info("Received bond price -> Key: {}, Value: {}", record.key(), record.value());
+
+                // ✅ Process bond price to generate enhanced bond price
+                String enhancedPrice = processor.enhanceBondPrice(record.key(), record.value());
+
+                // ✅ Send enhanced price to the next Kafka topic (enhanced-bond-prices)
+                producer.send(record.key(), enhancedPrice);
             }
         }
     }
