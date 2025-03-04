@@ -10,7 +10,7 @@ import java.util.Properties;
 public class BondPriceProducer {
     private static final Logger logger = LoggerFactory.getLogger(BondPriceProducer.class);
     private KafkaProducer<String, String> producer;
-    private final String topic = "enhanced-bond-prices"; // ✅ Ensure correct topic
+    private final String topic = "enhanced-bond-prices"; // Ensure correct topic
 
     public BondPriceProducer() {
         Properties props = KafkaConfig.getProducerProperties();

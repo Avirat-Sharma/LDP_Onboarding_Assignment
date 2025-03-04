@@ -22,12 +22,12 @@ public class InitBondProducer {
 
     public void produce() {
         try {
-            // ✅ Fix: Ensure price is a number (not a string)
+            // Ensure price is a number (not a string)
             String usBondPrice = objectMapper.writeValueAsString(Map.of("bond", "US1025", "price", 150.0));
             String inBondPrice = objectMapper.writeValueAsString(Map.of("bond", "IN4096", "price", 100.0));
             String jpBondPrice = objectMapper.writeValueAsString(Map.of("bond", "JP1331", "price", 125.0));
 
-            // ✅ Send JSON messages
+            //Send JSON messages
             producer.send(new ProducerRecord<>(topic, "US1025", usBondPrice));
             producer.send(new ProducerRecord<>(topic, "IN4096", inBondPrice));
             producer.send(new ProducerRecord<>(topic, "JP1331", jpBondPrice));

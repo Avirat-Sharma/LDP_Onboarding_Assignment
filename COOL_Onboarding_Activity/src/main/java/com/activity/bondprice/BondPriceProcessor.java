@@ -14,14 +14,14 @@ public class BondPriceProcessor {
 
     public String enhanceBondPrice(String bondId, String priceStr) {
         try {
-            // ✅ Parse JSON input
+            //  Parse JSON input
             JsonNode jsonNode = objectMapper.readTree(priceStr);
             double price = jsonNode.get("price").asDouble();  // Extract price from JSON
 
-            // ✅ Enhance price
+            //  Enhance price
             double enhancedPrice = price * 1.02;
 
-            // ✅ Create JSON output
+            // Create JSON output
             Map<String, Object> bondData = new HashMap<>();
             bondData.put("bond", bondId);
             bondData.put("originalPrice", price);
@@ -33,7 +33,7 @@ public class BondPriceProcessor {
 
         } catch (Exception e) {
             logger.error("Error processing bond price for key: {}. Error: {}", bondId, e.getMessage());
-            return "{}";  // ✅ Return empty JSON in case of error
+            return "{}";  // Return empty JSON in case of error
         }
     }
 }
