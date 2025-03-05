@@ -19,7 +19,10 @@ public class KafkaConfig {
         props.put("bootstrap.servers", "localhost:9092"); // Kafka broker address
         props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+        //ack related data
         props.put("acks", "all"); // Ensure message is fully committed before acknowledgment
+        props.put("retries", 2);
+        props.put("delivery.timeout.ms", "30000");
         return props;
     }
 
