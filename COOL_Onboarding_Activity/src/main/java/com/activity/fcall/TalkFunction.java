@@ -11,7 +11,12 @@ public class TalkFunction implements TalkInterface{
     public AsyncResult<String> sendBonds(EnhancedBondPriceBean enhancedBond, BondPriceBean originalBond, IonBusInfo busInfo){
         AsyncResultPromise<String> result= AsyncResults.create();
         // will implement
-
+        if(result.isDone()){
+            result.success("Success");
+        }
+        else{
+            result.failure(new TalkException("Try again"));
+        }
         return result;
     }
 }
