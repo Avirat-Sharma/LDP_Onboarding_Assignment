@@ -27,5 +27,7 @@ docker exec -it kafka kafka-console-consumer --topic bond-prices-dlq --bootstrap
 # Stopping command:
 - docker stop $(docker ps -q)
 
+# Things to do:
+- create a bean and send it through the TalkFunc to the platform
 
 
