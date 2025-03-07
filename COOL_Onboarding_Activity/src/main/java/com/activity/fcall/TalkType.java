@@ -11,6 +11,10 @@ public class TalkType {
     @TalkProperty(name="EnhancedBond") public EnhancedBondPriceBean enhancedBond;
     @TalkProperty(name="OriginalBond") public BondPriceBean originalBond;
 
+    TalkType(EnhancedBondPriceBean enhancedBond, BondPriceBean originalBond){
+        this.enhancedBond=enhancedBond;
+        this.originalBond=originalBond;
+    }
     @TalkProperty(name="ClassName")
     public String getClassName() {
         return className;
