@@ -17,9 +17,10 @@ import com.iontrading.talk.ionbus.guice.TalkIonBusModule;
 public class BondPriceModule extends AbstractModule{
     @Override
     protected void configure(){
+        //boot registration
+
         //activating services
-        ServiceManagerModule.addService(binder(),"InitProducer");
-        ServiceManagerModule.addService(binder(),"Consumer");
+        ServiceManagerModule.addService(binder(),"KafkaService");
 
         bind(TalkInterface.class).to(TalkFunction.class).in(Singleton.class);
     }
