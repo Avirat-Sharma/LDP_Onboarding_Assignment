@@ -17,7 +17,7 @@ docker exec -it kafka kafka-console-consumer --topic bond-prices-dlq --bootstrap
 ## Deleting kafka topics:
 - docker exec -it kafka kafka-topics --delete --topic bond-prices --bootstrap-server localhost:9092
 - docker exec -it kafka kafka-topics --delete --topic enhanced-bond-prices --bootstrap-server localhost:9092
-- docker exec -it kafka kafka-topics --create --topic bond-prices-dlq --bootstrap-server localhost:9092 --partitions 3 --replication-factor 1
+- docker exec -it kafka kafka-topics --delete --topic bond-prices-dlq --bootstrap-server localhost:9092
 
 ## Creating kafka topics:
 - docker exec -it kafka kafka-topics --create --topic bond-prices --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
