@@ -1,5 +1,6 @@
 package com.activity.bondprice;
 
+import com.activity.fcall.MyTalkType;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -54,7 +55,10 @@ public class BondPriceConsumer {
         } catch (Exception e) {
             logger.error("Consumer encountered an error", e);
         } finally {
-            consumer.close();
+            System.out.println("Consumer closed");
+            return ;
         }
     }
+
+
 }

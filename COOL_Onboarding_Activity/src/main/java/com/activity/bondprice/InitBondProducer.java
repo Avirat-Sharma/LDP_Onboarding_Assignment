@@ -9,7 +9,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.Map;
 import java.util.Properties;
 
-public class InitBondProducer extends IService{
+public class InitBondProducer{
     private static final Logger logger = LoggerFactory.getLogger(InitBondProducer.class);
     private KafkaProducer<String, String> producer;
     private final String topic = "bond-prices"; // Topic to publish to

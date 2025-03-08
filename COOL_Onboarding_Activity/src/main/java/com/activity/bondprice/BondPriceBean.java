@@ -1,5 +1,5 @@
-package com.activity.fcall
-package com.iontrading
+package com.activity.fcall;
+
 public class BondPriceBean {
     public static int id=0;
     private final String className="BondPriceBean";

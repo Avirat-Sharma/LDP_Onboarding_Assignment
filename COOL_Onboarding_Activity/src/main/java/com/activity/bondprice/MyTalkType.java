@@ -5,13 +5,13 @@ import com.iontrading.talk.api.annotation.TalkProperty;
 import com.iontrading.talk.api.annotation.TalkType;
 
 @TalkType(name="BondTalkType")
-public class TalkType {
-    private final String className="TalkType";
+public class MyTalkType {
+    private final String className="MyTalkType";
 
     @TalkProperty(name="EnhancedBond") public EnhancedBondPriceBean enhancedBond;
     @TalkProperty(name="OriginalBond") public BondPriceBean originalBond;
 
-    TalkType(EnhancedBondPriceBean enhancedBond, BondPriceBean originalBond){
+    MyTalkType(EnhancedBondPriceBean enhancedBond, BondPriceBean originalBond){
         this.enhancedBond=enhancedBond;
         this.originalBond=originalBond;
     }
