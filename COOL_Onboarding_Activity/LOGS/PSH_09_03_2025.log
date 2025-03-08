@@ -1,0 +1,1742 @@
+01:42:34:843774|0068-00001:##############################################################
+01:42:34:844151|0039-00001:  ION Bus Java Component Starting
+01:42:34:844187|0052-00001:  ION Bus Java API v1.6.8-p8d7 August 01, 2024
+01:42:34:844256|0068-00001:##############################################################
+01:42:34:845591|0035-00001:PSH::Tinfo UTCOffset {+05:30}
+01:42:34:845685|0062-00001:JAVA::PropertyName [java.version] PropertyValue [23.0.2]
+01:42:34:845755|0073-00001:JAVA::PropertyName [java.vendor] PropertyValue [Oracle Corporation]
+01:42:34:845784|0083-00001:JAVA::PropertyName [java.vendor.url] PropertyValue [https://java.oracle.com/]
+01:42:34:845814|0081-00001:JAVA::PropertyName [java.home] PropertyValue [C:\Program Files\Java\jdk-23]
+01:42:34:845853|0075-00001:JAVA::PropertyName [java.vm.specification.version] PropertyValue [23]
+01:42:34:845896|0090-00001:JAVA::PropertyName [java.vm.specification.vendor] PropertyValue [Oracle Corporation]
+01:42:34:845927|0104-00001:JAVA::PropertyName [java.vm.specification.name] PropertyValue [Java Virtual Machine Specification]
+01:42:34:845957|0070-00001:JAVA::PropertyName [java.vm.version] PropertyValue [23.0.2+7-58]
+01:42:34:845981|0076-00001:JAVA::PropertyName [java.vm.vendor] PropertyValue [Oracle Corporation]
+01:42:34:846021|0089-00001:JAVA::PropertyName [java.vm.name] PropertyValue [Java HotSpot(TM) 64-Bit Server VM]
+01:42:34:846049|0072-00001:JAVA::PropertyName [java.specification.version] PropertyValue [23]
+01:42:34:846075|0087-00001:JAVA::PropertyName [java.specification.vendor] PropertyValue [Oracle Corporation]
+01:42:34:846102|0098-00001:JAVA::PropertyName [java.specification.name] PropertyValue [Java Platform API Specification]
+01:42:34:846129|0066-00001:JAVA::PropertyName [java.class.version] PropertyValue [67.0]
+01:42:34:846153|0107-00001:JAVA::PropertyName [java.class.path] PropertyValue [target/COOL_Onboarding_Activity-1.0-SNAPSHOT.jar]
+01:42:34:846185|2316-00001:JAVA::PropertyName [java.library.path] PropertyValue [C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;;.]
+01:42:34:846634|0099-00001:JAVA::PropertyName [java.io.tmpdir] PropertyValue [C:\Users\AVIRAT~1.SHA\AppData\Local\Temp\]
+01:42:34:847506|0061-00001:JAVA::PropertyName [java.compiler] PropertyValue [null]
+01:42:34:848184|0061-00001:JAVA::PropertyName [java.ext.dirs] PropertyValue [null]
+01:42:34:848256|0061-00001:JAVA::PropertyName [os.name] PropertyValue [Windows 11]
+01:42:34:848281|0056-00001:JAVA::PropertyName [os.arch] PropertyValue [amd64]
+01:42:34:848398|0058-00001:JAVA::PropertyName [os.version] PropertyValue [10.0]
+01:42:34:848572|0059-00001:JAVA::PropertyName [file.separator] PropertyValue [\]
+01:42:34:848618|0059-00001:JAVA::PropertyName [path.separator] PropertyValue [;]
+01:42:34:848665|0060-00001:JAVA::PropertyName [line.separator] PropertyValue [
+]
+01:42:34:848701|0066-00001:JAVA::PropertyName [user.name] PropertyValue [avirat.sharma]
+01:42:34:848723|0075-00001:JAVA::PropertyName [user.home] PropertyValue [C:\Users\avirat.sharma]
+01:42:34:848804|0166-00001:JAVA::PropertyName [user.dir] PropertyValue [C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity]
+01:42:34:849640|0058-00001:JAVA::PropertyName [command_line] PropertyValue [[]]
+01:42:34:849882|0070-00001:PSH::VarName[adaptlog.maxsyncwait],VarValue[2000],Type[3],Desc[]
+01:42:34:849910|0080-00001:PSH::VarName[adaptlog.mindiskthroughput],VarValue[50000000],Type[3],Desc[]
+01:42:34:849935|0070-00001:PSH::VarName[applicationlogsthreadid],VarValue[1],Type[3],Desc[]
+01:42:34:849956|0060-00001:PSH::VarName[audit_enabled],VarValue[1],Type[3],Desc[]
+01:42:34:849974|0060-00001:PSH::VarName[audit_journal],VarValue[1],Type[3],Desc[]
+01:42:34:849991|0070-00001:PSH::VarName[audit_source],VarValue[AUDIT_SERVER],Type[3],Desc[]
+01:42:34:850010|0055-00001:PSH::VarName[calive],VarValue[240],Type[3],Desc[]
+01:42:34:850026|0070-00001:PSH::VarName[chain.contentsub.enable],VarValue[0],Type[3],Desc[]
+01:42:34:850045|0059-00001:PSH::VarName[cidletimeout],VarValue[5],Type[3],Desc[]
+01:42:34:850063|0062-00001:PSH::VarName[COMPONENT],VarValue[unknown],Type[3],Desc[]
+01:42:34:850079|0075-00001:PSH::VarName[connection_failure_threshold],VarValue[5],Type[3],Desc[]
+01:42:34:850096|0066-00001:PSH::VarName[cpustat_threshold],VarValue[100],Type[3],Desc[]
+01:42:34:850113|0061-00001:PSH::VarName[CSHOST],VarValue[localhost],Type[3],Desc[]
+01:42:34:850130|0057-00001:PSH::VarName[CSPORT],VarValue[13000],Type[3],Desc[]
+01:42:34:850146|0056-00001:PSH::VarName[csretry],VarValue[300],Type[3],Desc[]
+01:42:34:850163|0055-00001:PSH::VarName[ctimeout],VarValue[5],Type[3],Desc[]
+01:42:34:850178|0079-00001:PSH::VarName[data_dictionary.initial_size],VarValue[15000],Type[3],Desc[]
+01:42:34:850196|0051-00001:PSH::VarName[DBDIR],VarValue[],Type[3],Desc[]
+01:42:34:850211|0055-00001:PSH::VarName[dblogerr],VarValue[0],Type[3],Desc[]
+01:42:34:850227|0065-00001:PSH::VarName[deadlock_detection],VarValue[1],Type[3],Desc[]
+01:42:34:850243|0068-00001:PSH::VarName[debug],VarValue[100],Type[3],Desc[Trace on files]
+01:42:34:850277|0090-00001:PSH::VarName[debug.eslib],VarValue[1],Type[3],Desc[Trace for ESLib queries on files]
+01:42:34:850299|0058-00001:PSH::VarName[debug.supply],VarValue[],Type[3],Desc[]
+01:42:34:850316|0058-00001:PSH::VarName[dinputscript],VarValue[],Type[3],Desc[]
+01:42:34:850367|0058-00001:PSH::VarName[dlocalscript],VarValue[],Type[3],Desc[]
+01:42:34:850389|0061-00001:PSH::VarName[drecorderextobj],VarValue[],Type[3],Desc[]
+01:42:34:850410|0061-00001:PSH::VarName[drecorderownobj],VarValue[],Type[3],Desc[]
+01:42:34:850426|0061-00001:PSH::VarName[drecorderscript],VarValue[],Type[3],Desc[]
+01:42:34:850442|0057-00001:PSH::VarName[dtblocking],VarValue[1],Type[3],Desc[]
+01:42:34:850466|0060-00001:PSH::VarName[dtblocksize],VarValue[256],Type[3],Desc[]
+01:42:34:850488|0060-00001:PSH::VarName[dtflowcontrol],VarValue[1],Type[3],Desc[]
+01:42:34:850505|0058-00001:PSH::VarName[dtflushtime],VarValue[2],Type[3],Desc[]
+01:42:34:850522|0057-00001:PSH::VarName[dtsyncsend],VarValue[0],Type[3],Desc[]
+01:42:34:850539|0063-00001:PSH::VarName[e2enative.enable],VarValue[1],Type[3],Desc[]
+01:42:34:850557|0055-00001:PSH::VarName[ENABLESSL],VarValue[],Type[3],Desc[]
+01:42:34:850580|0062-00001:PSH::VarName[ent_reqtimeout],VarValue[60],Type[3],Desc[]
+01:42:34:850600|0056-00001:PSH::VarName[ent_source],VarValue[],Type[3],Desc[]
+01:42:34:850617|0062-00001:PSH::VarName[filebuffer],VarValue[131072],Type[3],Desc[]
+01:42:34:850635|0067-00001:PSH::VarName[full_unicode_support],VarValue[1],Type[3],Desc[]
+01:42:34:850654|0056-00001:PSH::VarName[gctrace],VarValue[all],Type[3],Desc[]
+01:42:34:850681|0078-00001:PSH::VarName[ignore_daemon_object_collisions],VarValue[1],Type[3],Desc[]
+01:42:34:850701|0081-00001:PSH::VarName[ignore_like_type_object_collisions],VarValue[1],Type[3],Desc[]
+01:42:34:850720|0066-00001:PSH::VarName[keystore.client.path],VarValue[],Type[3],Desc[]
+01:42:34:850739|0066-00001:PSH::VarName[keystore.server.path],VarValue[],Type[3],Desc[]
+01:42:34:850756|0062-00001:PSH::VarName[keystores_path],VarValue[.\],Type[3],Desc[]
+01:42:34:850772|0053-00001:PSH::VarName[LISTEN],VarValue[0],Type[3],Desc[]
+01:42:34:850789|0060-00001:PSH::VarName[listenbacklog],VarValue[0],Type[3],Desc[]
+01:42:34:850805|0061-00001:PSH::VarName[logcustomstats],VarValue[1],Type[3],Desc[]
+01:42:34:850823|0059-00001:PSH::VarName[logformat],VarValue[utf8],Type[3],Desc[]
+01:42:34:850840|0056-00001:PSH::VarName[logsasync],VarValue[1],Type[3],Desc[]
+01:42:34:850862|0062-00001:PSH::VarName[logsasyncwait],VarValue[200],Type[3],Desc[]
+01:42:34:850881|0061-00001:PSH::VarName[logsbuffersize],VarValue[1],Type[3],Desc[]
+01:42:34:850904|0055-00001:PSH::VarName[logsdays],VarValue[2],Type[3],Desc[]
+01:42:34:850922|0053-00001:PSH::VarName[LOGSDIR],VarValue[],Type[3],Desc[]
+01:42:34:850939|0061-00001:PSH::VarName[logsflushtime],VarValue[-1],Type[3],Desc[]
+01:42:34:850957|0060-00001:PSH::VarName[logsoutput],VarValue[file],Type[3],Desc[]
+01:42:34:850974|0057-00001:PSH::VarName[maxdelay],VarValue[200],Type[3],Desc[]
+01:42:34:850991|0060-00001:PSH::VarName[maxlogsize],VarValue[1024],Type[3],Desc[]
+01:42:34:851007|0061-00001:PSH::VarName[maxqueuesize],VarValue[128],Type[3],Desc[]
+01:42:34:851023|0065-00001:PSH::VarName[memoryalert.amber],VarValue[45],Type[3],Desc[]
+01:42:34:851041|0063-00001:PSH::VarName[memoryalert.red],VarValue[50],Type[3],Desc[]
+01:42:34:851058|0058-00001:PSH::VarName[mindiskfree],VarValue[0],Type[3],Desc[]
+01:42:34:851076|0059-00001:PSH::VarName[MONITOR_PORT],VarValue[0],Type[3],Desc[]
+01:42:34:851092|0060-00001:PSH::VarName[MULTI_INSTANCE],VarValue[],Type[3],Desc[]
+01:42:34:851109|0058-00001:PSH::VarName[negtimeout],VarValue[16],Type[3],Desc[]
+01:42:34:851125|0077-00001:PSH::VarName[object_collisions_report_time],VarValue[60],Type[3],Desc[]
+01:42:34:851143|0067-00001:PSH::VarName[publishonlyrecordset],VarValue[0],Type[3],Desc[]
+01:42:34:851180|0061-00001:PSH::VarName[publish_exclude],VarValue[],Type[3],Desc[]
+01:42:34:851199|0072-00001:PSH::VarName[publish_exclude_originator],VarValue[],Type[3],Desc[]
+01:42:34:851217|0061-00001:PSH::VarName[publish_include],VarValue[],Type[3],Desc[]
+01:42:34:851235|0072-00001:PSH::VarName[publish_include_originator],VarValue[],Type[3],Desc[]
+01:42:34:851252|0058-00001:PSH::VarName[redirstderr],VarValue[1],Type[3],Desc[]
+01:42:34:851267|0076-00001:PSH::VarName[registerclientprotocolversion],VarValue[4],Type[3],Desc[]
+01:42:34:851285|0064-00001:PSH::VarName[resolve_hostnames],VarValue[0],Type[3],Desc[]
+01:42:34:851301|0055-00001:PSH::VarName[rtdelay],VarValue[60],Type[3],Desc[]
+01:42:34:851317|0061-00001:PSH::VarName[security_level],VarValue[0],Type[3],Desc[]
+01:42:34:851333|0052-00001:PSH::VarName[server],VarValue[],Type[3],Desc[]
+01:42:34:851348|0055-00001:PSH::VarName[statime],VarValue[60],Type[3],Desc[]
+01:42:34:851364|0058-00001:PSH::VarName[statime_sub],VarValue[1],Type[3],Desc[]
+01:42:34:851381|0059-00001:PSH::VarName[syscomponent],VarValue[0],Type[3],Desc[]
+01:42:34:851397|0061-00001:PSH::VarName[tcp_buffer],VarValue[65536],Type[3],Desc[]
+01:42:34:851413|0058-00001:PSH::VarName[tcp_nodelay],VarValue[1],Type[3],Desc[]
+01:42:34:851432|0063-00001:PSH::VarName[traces.broadcast],VarValue[1],Type[3],Desc[]
+01:42:34:851450|0081-00001:PSH::VarName[trace_dt],VarValue[10],Type[3],Desc[Data Transfer trace level]
+01:42:34:851467|0064-00001:PSH::VarName[ultra_low_latency],VarValue[0],Type[3],Desc[]
+01:42:34:851483|0082-00001:PSH::VarName[ultra_low_latency.driver_timeout],VarValue[5000],Type[3],Desc[]
+01:42:34:851500|0055-00001:PSH::VarName[usemsecs],VarValue[1],Type[3],Desc[]
+01:42:34:851515|0057-00001:PSH::VarName[USER],VarValue[unknown],Type[3],Desc[]
+01:42:34:851531|0059-00001:PSH::VarName[userecordset],VarValue[0],Type[3],Desc[]
+01:42:34:851547|0063-00001:PSH::VarName[winnative.enable],VarValue[1],Type[3],Desc[]
+01:42:34:851565|0049-00001:PSH::VarName[www],VarValue[],Type[3],Desc[]
+01:42:34:851583|0054-00001:PSH::VarName[wwwport],VarValue[0],Type[3],Desc[]
+01:42:34:855605|0062-00001:PSH::VarName[eslib.pool_size],VarValue[4],Type[3],Desc[]
+01:42:34:855730|0069-00001:PSH::VarName[eslib.high_load_factor],VarValue[2],Type[3],Desc[]
+01:42:34:855916|0068-00001:PSH::VarName[eslib.low_load_factor],VarValue[1],Type[3],Desc[]
+01:42:34:855991|0065-00001:PSH::VarName[eslib.custom_stats],VarValue[0],Type[3],Desc[]
+01:42:34:862022|0065-00001:PSH::VarName[tickdata.precision],VarValue[0],Type[3],Desc[]
+01:42:34:862234|0060-00001:PSH::VarName[stack_on_stop],VarValue[0],Type[3],Desc[]
+01:42:34:881149|1086-00051:Pinfo Component {unknown} Type {PUB} APIVersion {1.6.8-p8d7} ApplVersion {0.0.1} SysUtilsKind {win} NanoTimeKind {generic} FReq {60} PID {29424} MemSize {18297} MemPct {0.22} JVMVersion {23.0.2,Java HotSpot(TM) 64-Bit Server VM} JVMTotalMemory {516096} JVMFreeMemory {497716} JVMMaxTotalMemory {8249344} CPUTime {00:00:02:656} CPUAvg {367.47} CPUPeak {367.47} CPUPeakTime {00:00:00:000} Pub {0} PubLoc {0} SubRec {0} SubRecLoc {0} SubField {0} SubFieldLoc {0} SupRec {0} SupRecLoc {0} SupField {0} SupFieldLoc {0} UpdRec {0} UpdRecLoc {0} UpdField {0} UpdFieldLoc {0} UpdRecSub {0} MsgRecSnpRecv {0} MsgFieldSnpRecv {0} MsgRecSnpSent {0} MsgFieldSnpSent {0} MsgRecRecv {0} MsgFieldRecv {0} MsgRecSent {0} MsgFieldSent {0} pUpdRec {0} pUpdRecLoc {0} pUpdField {0} pUpdFieldLoc {0} pUpdRecSub {0} pMsgRecSnpRecv {0} pMsgFieldSnpRecv {0} pMsgRecSnpSent {0} pMsgFieldSnpSent {0} pMsgRecRecv {0} pMsgFieldRecv {0} pMsgRecSent {0} pMsgFieldSent {0} WLogBytes {0} AvgIOTPut {0} SyncLogWaitMsecs {0} SyncLogThreadsSus {0} LostLogTraces {0} ClientID {-1} PlatformID {-1} UTCOffset {+05:30}
+01:42:34:881475|0123-00051:PSH::HWINFO arch {amd64} numproc {22} mem {32985808K} os {Windows 11} osversion {10.0} timezone {India Standard Time}
+01:42:34:882731|0066-00001:ESLib: Starting ESLib on EntSource {} with QueryTimeout {60}
+01:42:34:903243|0022-00001:PSH::EVENT START
+01:42:34:907755|0043-00001:MkvRuntime registered to MemoryMXBean
+01:42:34:910097|0083-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Eden Space} Threshold {1}
+01:42:34:910204|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Eden Space} CollectionUsageCount {0} Committed {20480} Init {24576} Max {0} Used {0}
+01:42:34:910233|0080-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Old Gen} Threshold {1}
+01:42:34:910253|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Old Gen} CollectionUsageCount {0} Committed {0} Init {491520} Max {8249344} Used {0}
+01:42:34:910274|0087-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Survivor Space} Threshold {1}
+01:42:34:910294|0131-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Survivor Space} CollectionUsageCount {0} Committed {4096} Init {0} Max {0} Used {4096}
+01:42:34:915664|0412-00001:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {1} CollectionTime {10} StartTime {884} Duration {11} MemoryPool {G1 Eden Space} Committed {24576 20480} Init {24576 24576} Max {0 0} Used {20480 0} MemoryPool {G1 Survivor Space} Committed {0 4096} Init {0 0} Max {0 0} Used {0 4096} MemoryPool {G1 Old Gen} Committed {491520 491520} Init {491520 491520} Max {8249344 8249344} Used {8192 4821}
+01:42:34:915775|0088-00001:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {0} CollectionTime {0}
+01:42:34:915814|0089-00001:MkvRuntime::GCInfoExt GC {G1 Old Generation} CollectionCount {0} CollectionTime {0}
+01:42:34:916215|0068-00001:##############################################################
+01:42:34:916487|0061-00001:  Simple ION 2.0 Bond Price Application Server Starting
+01:42:34:916711|0029-00001:  Application v0.0.1 na
+01:42:34:916761|0068-00001:##############################################################
+01:42:35:268787|0419-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {2} CollectionTime {18} StartTime {1593} Duration {8} MemoryPool {G1 Eden Space} Committed {20480 49152} Init {24576 24576} Max {0 0} Used {16384 0} MemoryPool {G1 Survivor Space} Committed {4096 4096} Init {0 0} Max {0 0} Used {4096 4096} MemoryPool {G1 Old Gen} Committed {491520 462848} Init {491520 491520} Max {8249344 8249344} Used {4821 12288}
+01:42:35:900739|0061-00001:PSH::VarName[log_threadname],VarValue[0],Type[3],Desc[]
+01:42:35:900865|0061-00001:PSH::VarName[log_name],VarValue[unknown],Type[3],Desc[]
+01:42:35:901294|0061-00001:PSH::VarName[log_threshold],VarValue[10],Type[3],Desc[]
+01:42:36:083603|0420-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {3} CollectionTime {27} StartTime {2411} Duration {9} MemoryPool {G1 Eden Space} Committed {49152 57344} Init {24576 24576} Max {0 0} Used {36864 0} MemoryPool {G1 Survivor Space} Committed {4096 8192} Init {0 0} Max {0 0} Used {4096 8192} MemoryPool {G1 Old Gen} Committed {462848 450560} Init {491520 491520} Max {8249344 8249344} Used {12288 13355}
+01:42:36:096034|0229-00027:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {1} CollectionTime {3} StartTime {2428} Duration {4} MemoryPool {G1 Old Gen} Committed {450560 16384} Init {491520 491520} Max {8249344 8249344} Used {13355 13355}
+01:42:36:117354|0085-00001:PSH::VarName[readiness.cluster_notification.enabled],VarValue[1],Type[3],Desc[]
+01:42:36:117928|0074-00001:PSH::VarName[insight.file_export.enabled],VarValue[1],Type[3],Desc[]
+01:42:36:118953|0074-00001:PSH::VarName[executor.monitoring.enabled],VarValue[1],Type[3],Desc[]
+01:42:36:119005|0092-00001:PSH::VarName[executor.monitoring.show_locked_synchronizers],VarValue[0],Type[3],Desc[]
+01:42:36:119142|0080-00001:PSH::VarName[insight.prometheus.exporter.port],VarValue[-1],Type[3],Desc[]
+01:42:36:119178|0086-00001:PSH::VarName[executor.monitoring.warning_threshold],VarValue[120],Type[3],Desc[]
+01:42:36:119265|0069-00001:PSH::VarName[resource_probe.enabled],VarValue[1],Type[3],Desc[]
+01:42:36:119299|0081-00001:PSH::VarName[executor.monitoring.poll_interval],VarValue[60],Type[3],Desc[]
+01:42:36:119333|0083-00001:PSH::VarName[application_server.plugins_dir],VarValue[plugins],Type[3],Desc[]
+01:42:36:119430|0057-00001:PSH::VarName[currency],VarValue[ALL],Type[3],Desc[]
+01:42:36:119466|0083-00001:PSH::VarName[executor.monitoring.dump_interval],VarValue[3600],Type[3],Desc[]
+01:42:36:119756|0076-00001:PSH::VarName[executor.core.keepalive_time],VarValue[-1],Type[3],Desc[]
+01:42:36:119870|0071-00001:PSH::VarName[executor.core.pool_size],VarValue[-1],Type[3],Desc[]
+01:42:36:119907|0058-00001:PSH::VarName[source],VarValue[SOURCE],Type[3],Desc[]
+01:42:36:119988|0075-00001:PSH::VarName[insight.metric_set.black_list],VarValue[],Type[3],Desc[]
+01:42:36:120027|0075-00001:PSH::VarName[executor.core.max_pool_size],VarValue[-1],Type[3],Desc[]
+01:42:36:120061|0064-00001:PSH::VarName[readiness.enabled],VarValue[1],Type[3],Desc[]
+01:42:36:120090|0062-00001:PSH::VarName[insight.enabled],VarValue[1],Type[3],Desc[]
+01:42:36:122488|0050-00050:Try connect to host {localhost} port {13000}
+01:42:36:164416|0096-00049:PSH::=========== STARTING on CS@/127.0.0.1:51263::localhost:13000 [Owner true] ===========
+01:42:36:171379|0084-00069:PSH::Conn[/127.0.0.1:51263::localhost:13000] Daemon, native SSL handshake=true
+01:42:36:247448|0176-00069:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:42:36:295909|0070-00069:PSH::Conn[/127.0.0.1:51263::localhost:13000] SSL Handshake start
+01:42:36:329702|0504-00069:PSH::Conn[/127.0.0.1:51263::localhost:13000] Daemon, failure on SSL handshake
+java.io.EOFException: Read failure on socket channel.
+	at com.iontrading.utils.ak.a(SSLHelpers.java:406)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:372)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:42:36:330615|0103-00069:PSH::Conn[/127.0.0.1:51263::localhost:13000] Daemon, switching to ION standard handshake with SSL
+01:42:36:332202|1380-00069:PSH::ERROR Conn[/127.0.0.1:51263::localhost:13000] Negotiation problem: An established connection was aborted by the software in your host machine
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:295)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at com.iontrading.proactor.e.b(ASocketChannelInputStream.java:166)
+	at com.iontrading.proactor.e.d(ASocketChannelInputStream.java:219)
+	at com.iontrading.proactor.e.read(ASocketChannelInputStream.java:259)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at com.iontrading.OSP.d.a(OspInputStream.java:31)
+	at com.iontrading.OSP.packets.b.a(Header.java:23)
+	at com.iontrading.OSP.d.a(OspInputStream.java:106)
+	at com.iontrading.OSP.f$a.b(OspStream.java:170)
+	at com.iontrading.OSP.f.a(OspStream.java:280)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:42:36:333227|0027-00069:OPS handshake failed!
+01:42:41:133746|0050-00050:Try connect to host {localhost} port {13000}
+01:42:41:153120|0096-00049:PSH::=========== STARTING on CS@/127.0.0.1:51276::localhost:13000 [Owner true] ===========
+01:42:41:159993|0085-00071:PSH::Conn[/127.0.0.1:51276::localhost:13000] Daemon, native SSL handshake=false
+01:42:41:175170|0176-00071:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:42:41:176173|0070-00071:PSH::Conn[/127.0.0.1:51276::localhost:13000] SSL Handshake start
+01:42:41:188313|1337-00071:PSH::Conn[/127.0.0.1:51276::localhost:13000] Daemon, failure on SSL handshake
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:42:41:188602|0123-00071:PSH::Conn[/127.0.0.1:51276::localhost:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:42:41:188696|0123-00071:PSH::Conn[/127.0.0.1:51276::localhost:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:42:41:188704|1391-00071:PSH::ERROR Conn[/127.0.0.1:51276::localhost:13000] Negotiation problem: (handshake_failure) Received fatal alert: handshake_failure
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:42:41:189450|0027-00071:OPS handshake failed!
+01:42:46:138370|0050-00050:Try connect to host {localhost} port {13000}
+01:42:46:155545|0096-00049:PSH::=========== STARTING on CS@/127.0.0.1:51296::localhost:13000 [Owner true] ===========
+01:42:46:161886|0085-00073:PSH::Conn[/127.0.0.1:51296::localhost:13000] Daemon, native SSL handshake=false
+01:42:46:175827|0080-00073:PSH::Conn[/127.0.0.1:51296::localhost:13000] Setting max block size: 32768
+01:42:46:184197|0081-00073:PSH::Conn[/127.0.0.1:51296::localhost:13000] Setting up alive timer: 120000
+01:42:46:199883|0086-00073:PSH::Register  IN  [SUCCESS] Protocol {1} CipherSuite {none} {unknown} <--> {CS}
+01:42:46:200655|0025-00073:PSH::EVENT REGISTER
+01:42:46:214067|0102-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPPROFILE
+01:42:46:216587|0096-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPS
+01:42:46:216909|0104-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PLATFORM_USERS
+01:42:46:217013|0098-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PROFILES
+01:42:46:217100|0099-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERGROUP
+01:42:46:217186|0101-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERPROFILE
+01:42:46:226904|0063-00073:PSH::EVENT COMPONENT: [$(Avirat)_$(Machine)],[REGISTERED]
+01:42:46:227115|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:42:46:227205|0053-00073:PSH::EVENT COMPONENT: [ROUTER_CF1],[REGISTERED]
+01:42:46:227276|0045-00073:PSH::EVENT COMPONENT: [da],[REGISTERED]
+01:42:46:227365|0045-00073:PSH::EVENT COMPONENT: [dh],[REGISTERED]
+01:42:46:227434|0050-00073:PSH::EVENT COMPONENT: [unknown],[REGISTERED]
+01:42:46:253947|0054-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[UNREGISTERED]
+01:42:50:592619|0031-00073:PSH::Setting USEMSECS {1}
+01:42:50:592940|0031-00073:PSH::Setting statime {60}
+01:42:52:598379|0061-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERGROUP
+01:42:52:598784|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:599835|0060-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PROFILES
+01:42:52:599897|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:600031|0063-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERPROFILE
+01:42:52:600086|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:600114|0064-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPPROFILE
+01:42:52:600121|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:600138|0066-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PLATFORM_USERS
+01:42:52:600144|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:602606|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603077|0062-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_COMPONENTS} Id {1}
+01:42:52:603354|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603369|0061-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_PROCESSES} Id {2}
+01:42:52:603427|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603437|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICES} Id {5}
+01:42:52:603473|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603482|0063-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICEVIEW} Id {7}
+01:42:52:603518|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603526|0058-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SYSTEM} Id {3}
+01:42:52:603561|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603569|0057-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERS} Id {4}
+01:42:52:603689|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:42:52:603727|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERVIEW} Id {6}
+01:42:52:603746|0058-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPS
+01:42:52:603768|0077-00073:PSH::UserGroupProfile: Notifying all chain downloaded for REGISTER_IDLE
+01:42:52:603889|0030-00073:PSH::EVENT REGISTER_IDLE
+01:42:52:604159|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:604208|0054-00073:ESLib: Trying subscription of ES Chain, Source: 
+01:42:52:605479|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:42:52:952455|0068-00076:##############################################################
+01:42:52:952465|0020-00076:  FATAL ERROR!
+01:42:52:952954|0262-00076:  Message {java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}}
+01:42:52:952961|0068-00076:##############################################################
+01:42:52:952977|2589-00076:Stacktrace:
+com.iontrading.isf.boot.spi.a: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:47)
+	at com.iontrading.isf.boot.impl.b.start(BootServices.java:75)
+	at com.iontrading.isf.applicationserver.impl.d.a(ISFAppBuilder.java:40)
+	at com.iontrading.isf.applicationserver.impl.ISFBootstrap$1.a(ISFBootstrap.java:141)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:263)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:184)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:124)
+	at com.iontrading.talk.metadata.factory.f.createMetadata(MethodMetadataFactoryImpl.java:74)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.metadata.a.a(JmixFunctionMetadataFactory.java:58)
+	at com.iontrading.talk.ionbus.metadata.a.createMetadata(JmixFunctionMetadataFactory.java:39)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.functions.impl.b$1.a(ExporterImpl.java:172)
+	at com.iontrading.talk.ionbus.functions.impl.h.a(JmixServiceWrapper.java:58)
+	at com.iontrading.talk.ionbus.functions.impl.b.a(ExporterImpl.java:214)
+	at com.iontrading.talk.ionbus.functions.impl.b.exportFunctions(ExporterImpl.java:155)
+	at com.iontrading.talk.ionbus.functions.impl.b.start(ExporterImpl.java:240)
+	at com.iontrading.isf.boot.impl.a.start(BootServiceWrapper.java:65)
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:42)
+	... 4 more
+
+01:42:54:828908|0021-00047:PSH::EVENT STOP
+01:42:54:832925|0134-00047:ESLib: Namespace Add: Namespace: KafkaService, Enabled: true, FlatRules: false, ProfileAware: false, ExtSource: null, Active: -1
+01:44:31:520211|0068-00001:##############################################################
+01:44:31:520559|0039-00001:  ION Bus Java Component Starting
+01:44:31:520592|0052-00001:  ION Bus Java API v1.6.8-p8d7 August 01, 2024
+01:44:31:520619|0068-00001:##############################################################
+01:44:31:521200|0035-00001:PSH::Tinfo UTCOffset {+05:30}
+01:44:31:521275|0062-00001:JAVA::PropertyName [java.version] PropertyValue [23.0.2]
+01:44:31:521426|0073-00001:JAVA::PropertyName [java.vendor] PropertyValue [Oracle Corporation]
+01:44:31:521487|0083-00001:JAVA::PropertyName [java.vendor.url] PropertyValue [https://java.oracle.com/]
+01:44:31:521579|0081-00001:JAVA::PropertyName [java.home] PropertyValue [C:\Program Files\Java\jdk-23]
+01:44:31:521634|0075-00001:JAVA::PropertyName [java.vm.specification.version] PropertyValue [23]
+01:44:31:521663|0090-00001:JAVA::PropertyName [java.vm.specification.vendor] PropertyValue [Oracle Corporation]
+01:44:31:521691|0104-00001:JAVA::PropertyName [java.vm.specification.name] PropertyValue [Java Virtual Machine Specification]
+01:44:31:521720|0070-00001:JAVA::PropertyName [java.vm.version] PropertyValue [23.0.2+7-58]
+01:44:31:521749|0076-00001:JAVA::PropertyName [java.vm.vendor] PropertyValue [Oracle Corporation]
+01:44:31:521781|0089-00001:JAVA::PropertyName [java.vm.name] PropertyValue [Java HotSpot(TM) 64-Bit Server VM]
+01:44:31:521800|0072-00001:JAVA::PropertyName [java.specification.version] PropertyValue [23]
+01:44:31:521818|0087-00001:JAVA::PropertyName [java.specification.vendor] PropertyValue [Oracle Corporation]
+01:44:31:521835|0098-00001:JAVA::PropertyName [java.specification.name] PropertyValue [Java Platform API Specification]
+01:44:31:521852|0066-00001:JAVA::PropertyName [java.class.version] PropertyValue [67.0]
+01:44:31:521867|0107-00001:JAVA::PropertyName [java.class.path] PropertyValue [target/COOL_Onboarding_Activity-1.0-SNAPSHOT.jar]
+01:44:31:521889|2316-00001:JAVA::PropertyName [java.library.path] PropertyValue [C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;;.]
+01:44:31:522072|0099-00001:JAVA::PropertyName [java.io.tmpdir] PropertyValue [C:\Users\AVIRAT~1.SHA\AppData\Local\Temp\]
+01:44:31:522254|0061-00001:JAVA::PropertyName [java.compiler] PropertyValue [null]
+01:44:31:522322|0061-00001:JAVA::PropertyName [java.ext.dirs] PropertyValue [null]
+01:44:31:522345|0061-00001:JAVA::PropertyName [os.name] PropertyValue [Windows 11]
+01:44:31:522381|0056-00001:JAVA::PropertyName [os.arch] PropertyValue [amd64]
+01:44:31:522407|0058-00001:JAVA::PropertyName [os.version] PropertyValue [10.0]
+01:44:31:522499|0059-00001:JAVA::PropertyName [file.separator] PropertyValue [\]
+01:44:31:522613|0059-00001:JAVA::PropertyName [path.separator] PropertyValue [;]
+01:44:31:522659|0060-00001:JAVA::PropertyName [line.separator] PropertyValue [
+]
+01:44:31:522686|0066-00001:JAVA::PropertyName [user.name] PropertyValue [avirat.sharma]
+01:44:31:522707|0075-00001:JAVA::PropertyName [user.home] PropertyValue [C:\Users\avirat.sharma]
+01:44:31:522729|0166-00001:JAVA::PropertyName [user.dir] PropertyValue [C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity]
+01:44:31:523355|0058-00001:JAVA::PropertyName [command_line] PropertyValue [[]]
+01:44:31:523643|0070-00001:PSH::VarName[adaptlog.maxsyncwait],VarValue[2000],Type[3],Desc[]
+01:44:31:523679|0080-00001:PSH::VarName[adaptlog.mindiskthroughput],VarValue[50000000],Type[3],Desc[]
+01:44:31:523702|0070-00001:PSH::VarName[applicationlogsthreadid],VarValue[1],Type[3],Desc[]
+01:44:31:523724|0060-00001:PSH::VarName[audit_enabled],VarValue[1],Type[3],Desc[]
+01:44:31:523742|0060-00001:PSH::VarName[audit_journal],VarValue[1],Type[3],Desc[]
+01:44:31:523758|0070-00001:PSH::VarName[audit_source],VarValue[AUDIT_SERVER],Type[3],Desc[]
+01:44:31:523776|0055-00001:PSH::VarName[calive],VarValue[240],Type[3],Desc[]
+01:44:31:523791|0070-00001:PSH::VarName[chain.contentsub.enable],VarValue[0],Type[3],Desc[]
+01:44:31:523807|0059-00001:PSH::VarName[cidletimeout],VarValue[5],Type[3],Desc[]
+01:44:31:523824|0061-00001:PSH::VarName[COMPONENT],VarValue[Avirat],Type[1],Desc[]
+01:44:31:523840|0075-00001:PSH::VarName[connection_failure_threshold],VarValue[5],Type[3],Desc[]
+01:44:31:523855|0066-00001:PSH::VarName[cpustat_threshold],VarValue[100],Type[3],Desc[]
+01:44:31:523870|0061-00001:PSH::VarName[CSHOST],VarValue[127.0.0.1],Type[1],Desc[]
+01:44:31:523886|0057-00001:PSH::VarName[CSPORT],VarValue[13000],Type[1],Desc[]
+01:44:31:524056|0056-00001:PSH::VarName[csretry],VarValue[300],Type[3],Desc[]
+01:44:31:524156|0055-00001:PSH::VarName[ctimeout],VarValue[5],Type[3],Desc[]
+01:44:31:524179|0079-00001:PSH::VarName[data_dictionary.initial_size],VarValue[15000],Type[3],Desc[]
+01:44:31:524200|0051-00001:PSH::VarName[DBDIR],VarValue[],Type[3],Desc[]
+01:44:31:524216|0055-00001:PSH::VarName[dblogerr],VarValue[0],Type[3],Desc[]
+01:44:31:524231|0065-00001:PSH::VarName[deadlock_detection],VarValue[1],Type[3],Desc[]
+01:44:31:524246|0068-00001:PSH::VarName[debug],VarValue[100],Type[3],Desc[Trace on files]
+01:44:31:524317|0090-00001:PSH::VarName[debug.eslib],VarValue[1],Type[3],Desc[Trace for ESLib queries on files]
+01:44:31:524364|0058-00001:PSH::VarName[debug.supply],VarValue[],Type[3],Desc[]
+01:44:31:524389|0058-00001:PSH::VarName[dinputscript],VarValue[],Type[3],Desc[]
+01:44:31:524444|0058-00001:PSH::VarName[dlocalscript],VarValue[],Type[3],Desc[]
+01:44:31:524502|0061-00001:PSH::VarName[drecorderextobj],VarValue[],Type[3],Desc[]
+01:44:31:524526|0061-00001:PSH::VarName[drecorderownobj],VarValue[],Type[3],Desc[]
+01:44:31:524545|0061-00001:PSH::VarName[drecorderscript],VarValue[],Type[3],Desc[]
+01:44:31:524562|0057-00001:PSH::VarName[dtblocking],VarValue[1],Type[3],Desc[]
+01:44:31:524578|0060-00001:PSH::VarName[dtblocksize],VarValue[256],Type[3],Desc[]
+01:44:31:524654|0060-00001:PSH::VarName[dtflowcontrol],VarValue[1],Type[3],Desc[]
+01:44:31:524701|0058-00001:PSH::VarName[dtflushtime],VarValue[2],Type[3],Desc[]
+01:44:31:524723|0057-00001:PSH::VarName[dtsyncsend],VarValue[0],Type[3],Desc[]
+01:44:31:524743|0063-00001:PSH::VarName[e2enative.enable],VarValue[1],Type[3],Desc[]
+01:44:31:524761|0055-00001:PSH::VarName[ENABLESSL],VarValue[],Type[3],Desc[]
+01:44:31:524777|0062-00001:PSH::VarName[ent_reqtimeout],VarValue[60],Type[3],Desc[]
+01:44:31:524793|0056-00001:PSH::VarName[ent_source],VarValue[],Type[3],Desc[]
+01:44:31:524810|0062-00001:PSH::VarName[filebuffer],VarValue[131072],Type[3],Desc[]
+01:44:31:524826|0067-00001:PSH::VarName[full_unicode_support],VarValue[1],Type[3],Desc[]
+01:44:31:524843|0056-00001:PSH::VarName[gctrace],VarValue[all],Type[3],Desc[]
+01:44:31:524867|0078-00001:PSH::VarName[ignore_daemon_object_collisions],VarValue[1],Type[3],Desc[]
+01:44:31:524884|0081-00001:PSH::VarName[ignore_like_type_object_collisions],VarValue[1],Type[3],Desc[]
+01:44:31:524900|0066-00001:PSH::VarName[keystore.client.path],VarValue[],Type[3],Desc[]
+01:44:31:524919|0066-00001:PSH::VarName[keystore.server.path],VarValue[],Type[3],Desc[]
+01:44:31:524935|0062-00001:PSH::VarName[keystores_path],VarValue[.\],Type[3],Desc[]
+01:44:31:524985|0053-00001:PSH::VarName[LISTEN],VarValue[0],Type[3],Desc[]
+01:44:31:525018|0060-00001:PSH::VarName[listenbacklog],VarValue[0],Type[3],Desc[]
+01:44:31:525057|0061-00001:PSH::VarName[logcustomstats],VarValue[1],Type[3],Desc[]
+01:44:31:525124|0059-00001:PSH::VarName[logformat],VarValue[utf8],Type[3],Desc[]
+01:44:31:525147|0056-00001:PSH::VarName[logsasync],VarValue[1],Type[3],Desc[]
+01:44:31:525211|0062-00001:PSH::VarName[logsasyncwait],VarValue[200],Type[3],Desc[]
+01:44:31:525236|0061-00001:PSH::VarName[logsbuffersize],VarValue[1],Type[3],Desc[]
+01:44:31:525377|0055-00001:PSH::VarName[logsdays],VarValue[2],Type[3],Desc[]
+01:44:31:525424|0053-00001:PSH::VarName[LOGSDIR],VarValue[],Type[3],Desc[]
+01:44:31:525468|0061-00001:PSH::VarName[logsflushtime],VarValue[-1],Type[3],Desc[]
+01:44:31:525492|0060-00001:PSH::VarName[logsoutput],VarValue[file],Type[3],Desc[]
+01:44:31:525511|0057-00001:PSH::VarName[maxdelay],VarValue[200],Type[3],Desc[]
+01:44:31:525546|0060-00001:PSH::VarName[maxlogsize],VarValue[1024],Type[3],Desc[]
+01:44:31:525565|0061-00001:PSH::VarName[maxqueuesize],VarValue[128],Type[3],Desc[]
+01:44:31:525646|0065-00001:PSH::VarName[memoryalert.amber],VarValue[45],Type[3],Desc[]
+01:44:31:525723|0063-00001:PSH::VarName[memoryalert.red],VarValue[50],Type[3],Desc[]
+01:44:31:525754|0058-00001:PSH::VarName[mindiskfree],VarValue[0],Type[3],Desc[]
+01:44:31:525779|0059-00001:PSH::VarName[MONITOR_PORT],VarValue[0],Type[3],Desc[]
+01:44:31:525796|0060-00001:PSH::VarName[MULTI_INSTANCE],VarValue[],Type[3],Desc[]
+01:44:31:525812|0058-00001:PSH::VarName[negtimeout],VarValue[16],Type[3],Desc[]
+01:44:31:525826|0077-00001:PSH::VarName[object_collisions_report_time],VarValue[60],Type[3],Desc[]
+01:44:31:525842|0067-00001:PSH::VarName[publishonlyrecordset],VarValue[0],Type[3],Desc[]
+01:44:31:525859|0061-00001:PSH::VarName[publish_exclude],VarValue[],Type[3],Desc[]
+01:44:31:525872|0072-00001:PSH::VarName[publish_exclude_originator],VarValue[],Type[3],Desc[]
+01:44:31:525886|0061-00001:PSH::VarName[publish_include],VarValue[],Type[3],Desc[]
+01:44:31:525900|0072-00001:PSH::VarName[publish_include_originator],VarValue[],Type[3],Desc[]
+01:44:31:525914|0058-00001:PSH::VarName[redirstderr],VarValue[1],Type[3],Desc[]
+01:44:31:525927|0076-00001:PSH::VarName[registerclientprotocolversion],VarValue[4],Type[3],Desc[]
+01:44:31:525942|0064-00001:PSH::VarName[resolve_hostnames],VarValue[0],Type[3],Desc[]
+01:44:31:525956|0055-00001:PSH::VarName[rtdelay],VarValue[60],Type[3],Desc[]
+01:44:31:525970|0061-00001:PSH::VarName[security_level],VarValue[0],Type[3],Desc[]
+01:44:31:525986|0052-00001:PSH::VarName[server],VarValue[],Type[3],Desc[]
+01:44:31:526063|0055-00001:PSH::VarName[statime],VarValue[60],Type[3],Desc[]
+01:44:31:526106|0058-00001:PSH::VarName[statime_sub],VarValue[1],Type[3],Desc[]
+01:44:31:526143|0059-00001:PSH::VarName[syscomponent],VarValue[0],Type[3],Desc[]
+01:44:31:526166|0061-00001:PSH::VarName[tcp_buffer],VarValue[65536],Type[3],Desc[]
+01:44:31:526183|0058-00001:PSH::VarName[tcp_nodelay],VarValue[1],Type[3],Desc[]
+01:44:31:526197|0063-00001:PSH::VarName[traces.broadcast],VarValue[1],Type[3],Desc[]
+01:44:31:526212|0081-00001:PSH::VarName[trace_dt],VarValue[10],Type[3],Desc[Data Transfer trace level]
+01:44:31:526234|0064-00001:PSH::VarName[ultra_low_latency],VarValue[0],Type[3],Desc[]
+01:44:31:526254|0082-00001:PSH::VarName[ultra_low_latency.driver_timeout],VarValue[5000],Type[3],Desc[]
+01:44:31:526315|0055-00001:PSH::VarName[usemsecs],VarValue[1],Type[3],Desc[]
+01:44:31:526350|0053-00001:PSH::VarName[USER],VarValue[mkv],Type[1],Desc[]
+01:44:31:526369|0059-00001:PSH::VarName[userecordset],VarValue[0],Type[3],Desc[]
+01:44:31:526467|0063-00001:PSH::VarName[winnative.enable],VarValue[1],Type[3],Desc[]
+01:44:31:526506|0049-00001:PSH::VarName[www],VarValue[],Type[3],Desc[]
+01:44:31:526528|0054-00001:PSH::VarName[wwwport],VarValue[0],Type[3],Desc[]
+01:44:31:527300|0062-00001:PSH::VarName[eslib.pool_size],VarValue[4],Type[3],Desc[]
+01:44:31:527407|0069-00001:PSH::VarName[eslib.high_load_factor],VarValue[2],Type[3],Desc[]
+01:44:31:527670|0068-00001:PSH::VarName[eslib.low_load_factor],VarValue[1],Type[3],Desc[]
+01:44:31:527912|0065-00001:PSH::VarName[eslib.custom_stats],VarValue[0],Type[3],Desc[]
+01:44:31:528516|0065-00001:PSH::VarName[tickdata.precision],VarValue[0],Type[3],Desc[]
+01:44:31:528590|0060-00001:PSH::VarName[stack_on_stop],VarValue[0],Type[3],Desc[]
+01:44:31:537588|1084-00051:Pinfo Component {Avirat} Type {PUB} APIVersion {1.6.8-p8d7} ApplVersion {0.0.1} SysUtilsKind {win} NanoTimeKind {generic} FReq {60} PID {1804} MemSize {18244} MemPct {0.22} JVMVersion {23.0.2,Java HotSpot(TM) 64-Bit Server VM} JVMTotalMemory {516096} JVMFreeMemory {497770} JVMMaxTotalMemory {8249344} CPUTime {00:00:02:296} CPUAvg {342.28} CPUPeak {342.28} CPUPeakTime {00:00:00:000} Pub {0} PubLoc {0} SubRec {0} SubRecLoc {0} SubField {0} SubFieldLoc {0} SupRec {0} SupRecLoc {0} SupField {0} SupFieldLoc {0} UpdRec {0} UpdRecLoc {0} UpdField {0} UpdFieldLoc {0} UpdRecSub {0} MsgRecSnpRecv {0} MsgFieldSnpRecv {0} MsgRecSnpSent {0} MsgFieldSnpSent {0} MsgRecRecv {0} MsgFieldRecv {0} MsgRecSent {0} MsgFieldSent {0} pUpdRec {0} pUpdRecLoc {0} pUpdField {0} pUpdFieldLoc {0} pUpdRecSub {0} pMsgRecSnpRecv {0} pMsgFieldSnpRecv {0} pMsgRecSnpSent {0} pMsgFieldSnpSent {0} pMsgRecRecv {0} pMsgFieldRecv {0} pMsgRecSent {0} pMsgFieldSent {0} WLogBytes {0} AvgIOTPut {0} SyncLogWaitMsecs {0} SyncLogThreadsSus {0} LostLogTraces {0} ClientID {-1} PlatformID {-1} UTCOffset {+05:30}
+01:44:31:537899|0123-00051:PSH::HWINFO arch {amd64} numproc {22} mem {32985808K} os {Windows 11} osversion {10.0} timezone {India Standard Time}
+01:44:31:539466|0066-00001:ESLib: Starting ESLib on EntSource {} with QueryTimeout {60}
+01:44:31:559448|0022-00001:PSH::EVENT START
+01:44:31:564558|0043-00001:MkvRuntime registered to MemoryMXBean
+01:44:31:566723|0083-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Eden Space} Threshold {1}
+01:44:31:566789|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Eden Space} CollectionUsageCount {0} Committed {20480} Init {24576} Max {0} Used {0}
+01:44:31:566819|0080-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Old Gen} Threshold {1}
+01:44:31:566841|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Old Gen} CollectionUsageCount {0} Committed {0} Init {491520} Max {8249344} Used {0}
+01:44:31:566859|0087-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Survivor Space} Threshold {1}
+01:44:31:566876|0131-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Survivor Space} CollectionUsageCount {0} Committed {4096} Init {0} Max {0} Used {4096}
+01:44:31:571939|0410-00001:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {1} CollectionTime {8} StartTime {851} Duration {9} MemoryPool {G1 Eden Space} Committed {24576 20480} Init {24576 24576} Max {0 0} Used {24576 0} MemoryPool {G1 Survivor Space} Committed {0 4096} Init {0 0} Max {0 0} Used {0 4096} MemoryPool {G1 Old Gen} Committed {491520 491520} Init {491520 491520} Max {8249344 8249344} Used {8192 4768}
+01:44:31:572008|0088-00001:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {0} CollectionTime {0}
+01:44:31:572040|0089-00001:MkvRuntime::GCInfoExt GC {G1 Old Generation} CollectionCount {0} CollectionTime {0}
+01:44:31:572326|0068-00001:##############################################################
+01:44:31:572553|0061-00001:  Simple ION 2.0 Bond Price Application Server Starting
+01:44:31:572746|0029-00001:  Application v0.0.1 na
+01:44:31:572781|0068-00001:##############################################################
+01:44:31:928709|0419-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {2} CollectionTime {15} StartTime {1491} Duration {8} MemoryPool {G1 Eden Space} Committed {20480 45056} Init {24576 24576} Max {0 0} Used {16384 0} MemoryPool {G1 Survivor Space} Committed {4096 4096} Init {0 0} Max {0 0} Used {4096 4096} MemoryPool {G1 Old Gen} Committed {491520 466944} Init {491520 491520} Max {8249344 8249344} Used {4768 12146}
+01:44:32:612524|0061-00001:PSH::VarName[log_threadname],VarValue[0],Type[3],Desc[]
+01:44:32:612640|0060-00001:PSH::VarName[log_name],VarValue[Avirat],Type[3],Desc[]
+01:44:32:613073|0061-00001:PSH::VarName[log_threshold],VarValue[10],Type[3],Desc[]
+01:44:32:779239|0420-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {3} CollectionTime {22} StartTime {2344} Duration {6} MemoryPool {G1 Eden Space} Committed {45056 57344} Init {24576 24576} Max {0 0} Used {36864 0} MemoryPool {G1 Survivor Space} Committed {4096 8192} Init {0 0} Max {0 0} Used {4096 8192} MemoryPool {G1 Old Gen} Committed {466944 450560} Init {491520 491520} Max {8249344 8249344} Used {12146 13461}
+01:44:32:790205|0229-00027:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {1} CollectionTime {3} StartTime {2359} Duration {3} MemoryPool {G1 Old Gen} Committed {450560 16384} Init {491520 491520} Max {8249344 8249344} Used {13461 13461}
+01:44:32:813493|0065-00001:PSH::VarName[source],VarValue[Avirat_Source],Type[1],Desc[]
+01:44:32:813737|0062-00001:PSH::VarName[insight.enabled],VarValue[1],Type[3],Desc[]
+01:44:32:814782|0069-00001:PSH::VarName[resource_probe.enabled],VarValue[1],Type[3],Desc[]
+01:44:32:815557|0074-00001:PSH::VarName[insight.file_export.enabled],VarValue[1],Type[3],Desc[]
+01:44:32:815614|0081-00001:PSH::VarName[executor.monitoring.poll_interval],VarValue[60],Type[3],Desc[]
+01:44:32:815713|0092-00001:PSH::VarName[executor.monitoring.show_locked_synchronizers],VarValue[0],Type[3],Desc[]
+01:44:32:815817|0075-00001:PSH::VarName[insight.metric_set.black_list],VarValue[],Type[3],Desc[]
+01:44:32:815913|0083-00001:PSH::VarName[executor.monitoring.dump_interval],VarValue[3600],Type[3],Desc[]
+01:44:32:816275|0071-00001:PSH::VarName[executor.core.pool_size],VarValue[-1],Type[3],Desc[]
+01:44:32:816391|0076-00001:PSH::VarName[executor.core.keepalive_time],VarValue[-1],Type[3],Desc[]
+01:44:32:816422|0085-00001:PSH::VarName[readiness.cluster_notification.enabled],VarValue[1],Type[3],Desc[]
+01:44:32:816453|0064-00001:PSH::VarName[readiness.enabled],VarValue[1],Type[3],Desc[]
+01:44:32:816481|0075-00001:PSH::VarName[executor.core.max_pool_size],VarValue[-1],Type[3],Desc[]
+01:44:32:816505|0074-00001:PSH::VarName[executor.monitoring.enabled],VarValue[1],Type[3],Desc[]
+01:44:32:816529|0083-00001:PSH::VarName[application_server.plugins_dir],VarValue[plugins],Type[3],Desc[]
+01:44:32:816650|0086-00001:PSH::VarName[executor.monitoring.warning_threshold],VarValue[120],Type[3],Desc[]
+01:44:32:816780|0080-00001:PSH::VarName[insight.prometheus.exporter.port],VarValue[-1],Type[3],Desc[]
+01:44:32:816816|0057-00001:PSH::VarName[currency],VarValue[ALL],Type[3],Desc[]
+01:44:32:817520|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:44:32:858673|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51481::kubernetes.docker.internal:13000 [Owner true] ===========
+01:44:32:865185|0101-00069:PSH::Conn[/127.0.0.1:51481::kubernetes.docker.internal:13000] Daemon, native SSL handshake=true
+01:44:32:928067|0176-00069:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:44:32:971403|0087-00069:PSH::Conn[/127.0.0.1:51481::kubernetes.docker.internal:13000] SSL Handshake start
+01:44:33:002131|0521-00069:PSH::Conn[/127.0.0.1:51481::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+java.io.EOFException: Read failure on socket channel.
+	at com.iontrading.utils.ak.a(SSLHelpers.java:406)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:372)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:44:33:003259|0120-00069:PSH::Conn[/127.0.0.1:51481::kubernetes.docker.internal:13000] Daemon, switching to ION standard handshake with SSL
+01:44:33:004749|1397-00069:PSH::ERROR Conn[/127.0.0.1:51481::kubernetes.docker.internal:13000] Negotiation problem: An established connection was aborted by the software in your host machine
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:295)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at com.iontrading.proactor.e.b(ASocketChannelInputStream.java:166)
+	at com.iontrading.proactor.e.d(ASocketChannelInputStream.java:219)
+	at com.iontrading.proactor.e.read(ASocketChannelInputStream.java:259)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at com.iontrading.OSP.d.a(OspInputStream.java:31)
+	at com.iontrading.OSP.packets.b.a(Header.java:23)
+	at com.iontrading.OSP.d.a(OspInputStream.java:106)
+	at com.iontrading.OSP.f$a.b(OspStream.java:170)
+	at com.iontrading.OSP.f.a(OspStream.java:280)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:44:33:005634|0027-00069:OPS handshake failed!
+01:44:37:826684|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:44:37:863162|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51483::kubernetes.docker.internal:13000 [Owner true] ===========
+01:44:37:868320|0102-00071:PSH::Conn[/127.0.0.1:51483::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:44:37:874467|0176-00071:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:44:37:875439|0087-00071:PSH::Conn[/127.0.0.1:51483::kubernetes.docker.internal:13000] SSL Handshake start
+01:44:37:889384|1354-00071:PSH::Conn[/127.0.0.1:51483::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:44:37:889687|0140-00071:PSH::Conn[/127.0.0.1:51483::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:44:37:889774|0140-00071:PSH::Conn[/127.0.0.1:51483::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:44:37:889782|1408-00071:PSH::ERROR Conn[/127.0.0.1:51483::kubernetes.docker.internal:13000] Negotiation problem: (handshake_failure) Received fatal alert: handshake_failure
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:44:37:890649|0027-00071:OPS handshake failed!
+01:44:42:833824|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:44:42:853068|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51494::kubernetes.docker.internal:13000 [Owner true] ===========
+01:44:42:858104|0102-00073:PSH::Conn[/127.0.0.1:51494::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:44:42:874076|0097-00073:PSH::Conn[/127.0.0.1:51494::kubernetes.docker.internal:13000] Setting max block size: 32768
+01:44:42:880843|0098-00073:PSH::Conn[/127.0.0.1:51494::kubernetes.docker.internal:13000] Setting up alive timer: 120000
+01:44:42:895084|0085-00073:PSH::Register  IN  [SUCCESS] Protocol {1} CipherSuite {none} {Avirat} <--> {CS}
+01:44:42:896058|0025-00073:PSH::EVENT REGISTER
+01:44:42:912411|0102-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPPROFILE
+01:44:42:914718|0096-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPS
+01:44:42:915238|0104-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PLATFORM_USERS
+01:44:42:915334|0098-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PROFILES
+01:44:42:915407|0099-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERGROUP
+01:44:42:915475|0101-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERPROFILE
+01:44:42:923272|0063-00073:PSH::EVENT COMPONENT: [$(Avirat)_$(Machine)],[REGISTERED]
+01:44:42:923539|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:44:42:923718|0049-00073:PSH::EVENT COMPONENT: [Avirat],[REGISTERED]
+01:44:42:924068|0053-00073:PSH::EVENT COMPONENT: [ROUTER_CF1],[REGISTERED]
+01:44:42:924175|0045-00073:PSH::EVENT COMPONENT: [da],[REGISTERED]
+01:44:42:924280|0045-00073:PSH::EVENT COMPONENT: [dh],[REGISTERED]
+01:44:46:168082|0054-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[UNREGISTERED]
+01:44:46:359764|0031-00073:PSH::Setting USEMSECS {1}
+01:44:46:360019|0031-00073:PSH::Setting statime {60}
+01:44:49:363570|0061-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERGROUP
+01:44:49:363654|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:364696|0060-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PROFILES
+01:44:49:364729|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:364763|0063-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERPROFILE
+01:44:49:364770|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:364787|0064-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPPROFILE
+01:44:49:364793|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:364811|0066-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PLATFORM_USERS
+01:44:49:364817|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:365746|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:366444|0062-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_COMPONENTS} Id {1}
+01:44:49:366643|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:366672|0061-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_PROCESSES} Id {2}
+01:44:49:366736|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:366748|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICES} Id {5}
+01:44:49:367208|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:367345|0063-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICEVIEW} Id {7}
+01:44:49:367441|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:367460|0058-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SYSTEM} Id {3}
+01:44:49:367519|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:367532|0057-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERS} Id {4}
+01:44:49:367587|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:44:49:367601|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERVIEW} Id {6}
+01:44:49:367614|0058-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPS
+01:44:49:367634|0077-00073:PSH::UserGroupProfile: Notifying all chain downloaded for REGISTER_IDLE
+01:44:49:367748|0030-00073:PSH::EVENT REGISTER_IDLE
+01:44:49:368027|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:368093|0054-00073:ESLib: Trying subscription of ES Chain, Source: 
+01:44:49:369819|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:44:49:693160|0068-00076:##############################################################
+01:44:49:693169|0020-00076:  FATAL ERROR!
+01:44:49:693384|0262-00076:  Message {java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}}
+01:44:49:693388|0068-00076:##############################################################
+01:44:49:693398|2589-00076:Stacktrace:
+com.iontrading.isf.boot.spi.a: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:47)
+	at com.iontrading.isf.boot.impl.b.start(BootServices.java:75)
+	at com.iontrading.isf.applicationserver.impl.d.a(ISFAppBuilder.java:40)
+	at com.iontrading.isf.applicationserver.impl.ISFBootstrap$1.a(ISFBootstrap.java:141)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:263)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:184)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:124)
+	at com.iontrading.talk.metadata.factory.f.createMetadata(MethodMetadataFactoryImpl.java:74)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.metadata.a.a(JmixFunctionMetadataFactory.java:58)
+	at com.iontrading.talk.ionbus.metadata.a.createMetadata(JmixFunctionMetadataFactory.java:39)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.functions.impl.b$1.a(ExporterImpl.java:172)
+	at com.iontrading.talk.ionbus.functions.impl.h.a(JmixServiceWrapper.java:58)
+	at com.iontrading.talk.ionbus.functions.impl.b.a(ExporterImpl.java:214)
+	at com.iontrading.talk.ionbus.functions.impl.b.exportFunctions(ExporterImpl.java:155)
+	at com.iontrading.talk.ionbus.functions.impl.b.start(ExporterImpl.java:240)
+	at com.iontrading.isf.boot.impl.a.start(BootServiceWrapper.java:65)
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:42)
+	... 4 more
+
+01:44:58:145847|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:44:58:146168|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:44:59:696221|0021-00080:PSH::EVENT STOP
+01:44:59:700752|0134-00080:ESLib: Namespace Add: Namespace: KafkaService, Enabled: true, FlatRules: false, ProfileAware: false, ExtSource: null, Active: -1
+01:45:55:473570|0068-00001:##############################################################
+01:45:55:473862|0039-00001:  ION Bus Java Component Starting
+01:45:55:473894|0052-00001:  ION Bus Java API v1.6.8-p8d7 August 01, 2024
+01:45:55:473919|0068-00001:##############################################################
+01:45:55:474561|0035-00001:PSH::Tinfo UTCOffset {+05:30}
+01:45:55:474633|0062-00001:JAVA::PropertyName [java.version] PropertyValue [23.0.2]
+01:45:55:474777|0073-00001:JAVA::PropertyName [java.vendor] PropertyValue [Oracle Corporation]
+01:45:55:474862|0083-00001:JAVA::PropertyName [java.vendor.url] PropertyValue [https://java.oracle.com/]
+01:45:55:474898|0081-00001:JAVA::PropertyName [java.home] PropertyValue [C:\Program Files\Java\jdk-23]
+01:45:55:474927|0075-00001:JAVA::PropertyName [java.vm.specification.version] PropertyValue [23]
+01:45:55:474955|0090-00001:JAVA::PropertyName [java.vm.specification.vendor] PropertyValue [Oracle Corporation]
+01:45:55:474996|0104-00001:JAVA::PropertyName [java.vm.specification.name] PropertyValue [Java Virtual Machine Specification]
+01:45:55:475025|0070-00001:JAVA::PropertyName [java.vm.version] PropertyValue [23.0.2+7-58]
+01:45:55:475047|0076-00001:JAVA::PropertyName [java.vm.vendor] PropertyValue [Oracle Corporation]
+01:45:55:475071|0089-00001:JAVA::PropertyName [java.vm.name] PropertyValue [Java HotSpot(TM) 64-Bit Server VM]
+01:45:55:475101|0072-00001:JAVA::PropertyName [java.specification.version] PropertyValue [23]
+01:45:55:475120|0087-00001:JAVA::PropertyName [java.specification.vendor] PropertyValue [Oracle Corporation]
+01:45:55:475137|0098-00001:JAVA::PropertyName [java.specification.name] PropertyValue [Java Platform API Specification]
+01:45:55:475155|0066-00001:JAVA::PropertyName [java.class.version] PropertyValue [67.0]
+01:45:55:475171|0107-00001:JAVA::PropertyName [java.class.path] PropertyValue [target/COOL_Onboarding_Activity-1.0-SNAPSHOT.jar]
+01:45:55:475232|2316-00001:JAVA::PropertyName [java.library.path] PropertyValue [C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;;.]
+01:45:55:475400|0099-00001:JAVA::PropertyName [java.io.tmpdir] PropertyValue [C:\Users\AVIRAT~1.SHA\AppData\Local\Temp\]
+01:45:55:475479|0061-00001:JAVA::PropertyName [java.compiler] PropertyValue [null]
+01:45:55:475533|0061-00001:JAVA::PropertyName [java.ext.dirs] PropertyValue [null]
+01:45:55:475555|0061-00001:JAVA::PropertyName [os.name] PropertyValue [Windows 11]
+01:45:55:475700|0056-00001:JAVA::PropertyName [os.arch] PropertyValue [amd64]
+01:45:55:475744|0058-00001:JAVA::PropertyName [os.version] PropertyValue [10.0]
+01:45:55:475771|0059-00001:JAVA::PropertyName [file.separator] PropertyValue [\]
+01:45:55:475792|0059-00001:JAVA::PropertyName [path.separator] PropertyValue [;]
+01:45:55:475810|0060-00001:JAVA::PropertyName [line.separator] PropertyValue [
+]
+01:45:55:475830|0066-00001:JAVA::PropertyName [user.name] PropertyValue [avirat.sharma]
+01:45:55:475969|0075-00001:JAVA::PropertyName [user.home] PropertyValue [C:\Users\avirat.sharma]
+01:45:55:476071|0166-00001:JAVA::PropertyName [user.dir] PropertyValue [C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity]
+01:45:55:476496|0058-00001:JAVA::PropertyName [command_line] PropertyValue [[]]
+01:45:55:476848|0070-00001:PSH::VarName[adaptlog.maxsyncwait],VarValue[2000],Type[3],Desc[]
+01:45:55:477037|0080-00001:PSH::VarName[adaptlog.mindiskthroughput],VarValue[50000000],Type[3],Desc[]
+01:45:55:477075|0070-00001:PSH::VarName[applicationlogsthreadid],VarValue[1],Type[3],Desc[]
+01:45:55:477098|0060-00001:PSH::VarName[audit_enabled],VarValue[1],Type[3],Desc[]
+01:45:55:477117|0060-00001:PSH::VarName[audit_journal],VarValue[1],Type[3],Desc[]
+01:45:55:477134|0070-00001:PSH::VarName[audit_source],VarValue[AUDIT_SERVER],Type[3],Desc[]
+01:45:55:477155|0055-00001:PSH::VarName[calive],VarValue[240],Type[3],Desc[]
+01:45:55:477171|0070-00001:PSH::VarName[chain.contentsub.enable],VarValue[0],Type[3],Desc[]
+01:45:55:477187|0059-00001:PSH::VarName[cidletimeout],VarValue[5],Type[3],Desc[]
+01:45:55:477205|0061-00001:PSH::VarName[COMPONENT],VarValue[Avirat],Type[1],Desc[]
+01:45:55:477221|0075-00001:PSH::VarName[connection_failure_threshold],VarValue[5],Type[3],Desc[]
+01:45:55:477236|0066-00001:PSH::VarName[cpustat_threshold],VarValue[100],Type[3],Desc[]
+01:45:55:477251|0061-00001:PSH::VarName[CSHOST],VarValue[127.0.0.1],Type[1],Desc[]
+01:45:55:477266|0057-00001:PSH::VarName[CSPORT],VarValue[13000],Type[1],Desc[]
+01:45:55:477378|0056-00001:PSH::VarName[csretry],VarValue[300],Type[3],Desc[]
+01:45:55:477405|0055-00001:PSH::VarName[ctimeout],VarValue[5],Type[3],Desc[]
+01:45:55:477423|0079-00001:PSH::VarName[data_dictionary.initial_size],VarValue[15000],Type[3],Desc[]
+01:45:55:477440|0051-00001:PSH::VarName[DBDIR],VarValue[],Type[3],Desc[]
+01:45:55:477454|0055-00001:PSH::VarName[dblogerr],VarValue[0],Type[3],Desc[]
+01:45:55:477468|0065-00001:PSH::VarName[deadlock_detection],VarValue[1],Type[3],Desc[]
+01:45:55:477483|0068-00001:PSH::VarName[debug],VarValue[100],Type[3],Desc[Trace on files]
+01:45:55:477509|0090-00001:PSH::VarName[debug.eslib],VarValue[1],Type[3],Desc[Trace for ESLib queries on files]
+01:45:55:477530|0058-00001:PSH::VarName[debug.supply],VarValue[],Type[3],Desc[]
+01:45:55:477545|0058-00001:PSH::VarName[dinputscript],VarValue[],Type[3],Desc[]
+01:45:55:477646|0058-00001:PSH::VarName[dlocalscript],VarValue[],Type[3],Desc[]
+01:45:55:477676|0061-00001:PSH::VarName[drecorderextobj],VarValue[],Type[3],Desc[]
+01:45:55:477695|0061-00001:PSH::VarName[drecorderownobj],VarValue[],Type[3],Desc[]
+01:45:55:477712|0061-00001:PSH::VarName[drecorderscript],VarValue[],Type[3],Desc[]
+01:45:55:477727|0057-00001:PSH::VarName[dtblocking],VarValue[1],Type[3],Desc[]
+01:45:55:477742|0060-00001:PSH::VarName[dtblocksize],VarValue[256],Type[3],Desc[]
+01:45:55:477796|0060-00001:PSH::VarName[dtflowcontrol],VarValue[1],Type[3],Desc[]
+01:45:55:477818|0058-00001:PSH::VarName[dtflushtime],VarValue[2],Type[3],Desc[]
+01:45:55:477834|0057-00001:PSH::VarName[dtsyncsend],VarValue[0],Type[3],Desc[]
+01:45:55:477850|0063-00001:PSH::VarName[e2enative.enable],VarValue[1],Type[3],Desc[]
+01:45:55:477865|0055-00001:PSH::VarName[ENABLESSL],VarValue[],Type[3],Desc[]
+01:45:55:477880|0062-00001:PSH::VarName[ent_reqtimeout],VarValue[60],Type[3],Desc[]
+01:45:55:477895|0056-00001:PSH::VarName[ent_source],VarValue[],Type[3],Desc[]
+01:45:55:477909|0062-00001:PSH::VarName[filebuffer],VarValue[131072],Type[3],Desc[]
+01:45:55:477923|0067-00001:PSH::VarName[full_unicode_support],VarValue[1],Type[3],Desc[]
+01:45:55:477938|0056-00001:PSH::VarName[gctrace],VarValue[all],Type[3],Desc[]
+01:45:55:477965|0078-00001:PSH::VarName[ignore_daemon_object_collisions],VarValue[1],Type[3],Desc[]
+01:45:55:477983|0081-00001:PSH::VarName[ignore_like_type_object_collisions],VarValue[1],Type[3],Desc[]
+01:45:55:478001|0066-00001:PSH::VarName[keystore.client.path],VarValue[],Type[3],Desc[]
+01:45:55:478018|0066-00001:PSH::VarName[keystore.server.path],VarValue[],Type[3],Desc[]
+01:45:55:478033|0062-00001:PSH::VarName[keystores_path],VarValue[.\],Type[3],Desc[]
+01:45:55:478047|0053-00001:PSH::VarName[LISTEN],VarValue[0],Type[3],Desc[]
+01:45:55:478062|0060-00001:PSH::VarName[listenbacklog],VarValue[0],Type[3],Desc[]
+01:45:55:478075|0061-00001:PSH::VarName[logcustomstats],VarValue[1],Type[3],Desc[]
+01:45:55:478100|0059-00001:PSH::VarName[logformat],VarValue[utf8],Type[3],Desc[]
+01:45:55:478118|0056-00001:PSH::VarName[logsasync],VarValue[1],Type[3],Desc[]
+01:45:55:478258|0062-00001:PSH::VarName[logsasyncwait],VarValue[200],Type[3],Desc[]
+01:45:55:478342|0061-00001:PSH::VarName[logsbuffersize],VarValue[1],Type[3],Desc[]
+01:45:55:478383|0055-00001:PSH::VarName[logsdays],VarValue[2],Type[3],Desc[]
+01:45:55:478404|0053-00001:PSH::VarName[LOGSDIR],VarValue[],Type[3],Desc[]
+01:45:55:478422|0061-00001:PSH::VarName[logsflushtime],VarValue[-1],Type[3],Desc[]
+01:45:55:478474|0060-00001:PSH::VarName[logsoutput],VarValue[file],Type[3],Desc[]
+01:45:55:478504|0057-00001:PSH::VarName[maxdelay],VarValue[200],Type[3],Desc[]
+01:45:55:478525|0060-00001:PSH::VarName[maxlogsize],VarValue[1024],Type[3],Desc[]
+01:45:55:478543|0061-00001:PSH::VarName[maxqueuesize],VarValue[128],Type[3],Desc[]
+01:45:55:478560|0065-00001:PSH::VarName[memoryalert.amber],VarValue[45],Type[3],Desc[]
+01:45:55:478579|0063-00001:PSH::VarName[memoryalert.red],VarValue[50],Type[3],Desc[]
+01:45:55:478596|0058-00001:PSH::VarName[mindiskfree],VarValue[0],Type[3],Desc[]
+01:45:55:478616|0059-00001:PSH::VarName[MONITOR_PORT],VarValue[0],Type[3],Desc[]
+01:45:55:478631|0060-00001:PSH::VarName[MULTI_INSTANCE],VarValue[],Type[3],Desc[]
+01:45:55:478646|0058-00001:PSH::VarName[negtimeout],VarValue[16],Type[3],Desc[]
+01:45:55:478661|0077-00001:PSH::VarName[object_collisions_report_time],VarValue[60],Type[3],Desc[]
+01:45:55:478677|0067-00001:PSH::VarName[publishonlyrecordset],VarValue[0],Type[3],Desc[]
+01:45:55:478696|0061-00001:PSH::VarName[publish_exclude],VarValue[],Type[3],Desc[]
+01:45:55:478711|0072-00001:PSH::VarName[publish_exclude_originator],VarValue[],Type[3],Desc[]
+01:45:55:478726|0061-00001:PSH::VarName[publish_include],VarValue[],Type[3],Desc[]
+01:45:55:478741|0072-00001:PSH::VarName[publish_include_originator],VarValue[],Type[3],Desc[]
+01:45:55:478756|0058-00001:PSH::VarName[redirstderr],VarValue[1],Type[3],Desc[]
+01:45:55:478770|0076-00001:PSH::VarName[registerclientprotocolversion],VarValue[4],Type[3],Desc[]
+01:45:55:478785|0064-00001:PSH::VarName[resolve_hostnames],VarValue[0],Type[3],Desc[]
+01:45:55:478801|0055-00001:PSH::VarName[rtdelay],VarValue[60],Type[3],Desc[]
+01:45:55:478815|0061-00001:PSH::VarName[security_level],VarValue[0],Type[3],Desc[]
+01:45:55:478828|0052-00001:PSH::VarName[server],VarValue[],Type[3],Desc[]
+01:45:55:478855|0055-00001:PSH::VarName[statime],VarValue[60],Type[3],Desc[]
+01:45:55:478871|0058-00001:PSH::VarName[statime_sub],VarValue[1],Type[3],Desc[]
+01:45:55:478894|0059-00001:PSH::VarName[syscomponent],VarValue[0],Type[3],Desc[]
+01:45:55:479096|0061-00001:PSH::VarName[tcp_buffer],VarValue[65536],Type[3],Desc[]
+01:45:55:479124|0058-00001:PSH::VarName[tcp_nodelay],VarValue[1],Type[3],Desc[]
+01:45:55:479145|0063-00001:PSH::VarName[traces.broadcast],VarValue[1],Type[3],Desc[]
+01:45:55:479167|0081-00001:PSH::VarName[trace_dt],VarValue[10],Type[3],Desc[Data Transfer trace level]
+01:45:55:479188|0064-00001:PSH::VarName[ultra_low_latency],VarValue[0],Type[3],Desc[]
+01:45:55:479219|0082-00001:PSH::VarName[ultra_low_latency.driver_timeout],VarValue[5000],Type[3],Desc[]
+01:45:55:479239|0055-00001:PSH::VarName[usemsecs],VarValue[1],Type[3],Desc[]
+01:45:55:479268|0053-00001:PSH::VarName[USER],VarValue[mkv],Type[1],Desc[]
+01:45:55:479285|0059-00001:PSH::VarName[userecordset],VarValue[0],Type[3],Desc[]
+01:45:55:479312|0063-00001:PSH::VarName[winnative.enable],VarValue[1],Type[3],Desc[]
+01:45:55:479394|0049-00001:PSH::VarName[www],VarValue[],Type[3],Desc[]
+01:45:55:479426|0054-00001:PSH::VarName[wwwport],VarValue[0],Type[3],Desc[]
+01:45:55:481665|0062-00001:PSH::VarName[eslib.pool_size],VarValue[4],Type[3],Desc[]
+01:45:55:481787|0069-00001:PSH::VarName[eslib.high_load_factor],VarValue[2],Type[3],Desc[]
+01:45:55:481905|0068-00001:PSH::VarName[eslib.low_load_factor],VarValue[1],Type[3],Desc[]
+01:45:55:481973|0065-00001:PSH::VarName[eslib.custom_stats],VarValue[0],Type[3],Desc[]
+01:45:55:482986|0065-00001:PSH::VarName[tickdata.precision],VarValue[0],Type[3],Desc[]
+01:45:55:483073|0060-00001:PSH::VarName[stack_on_stop],VarValue[0],Type[3],Desc[]
+01:45:55:489999|0066-00001:ESLib: Starting ESLib on EntSource {} with QueryTimeout {60}
+01:45:55:491310|1085-00051:Pinfo Component {Avirat} Type {PUB} APIVersion {1.6.8-p8d7} ApplVersion {0.0.1} SysUtilsKind {win} NanoTimeKind {generic} FReq {60} PID {22384} MemSize {18315} MemPct {0.22} JVMVersion {23.0.2,Java HotSpot(TM) 64-Bit Server VM} JVMTotalMemory {516096} JVMFreeMemory {497279} JVMMaxTotalMemory {8249344} CPUTime {00:00:02:218} CPUAvg {230.99} CPUPeak {230.99} CPUPeakTime {00:00:00:000} Pub {0} PubLoc {0} SubRec {0} SubRecLoc {0} SubField {0} SubFieldLoc {0} SupRec {0} SupRecLoc {0} SupField {0} SupFieldLoc {0} UpdRec {0} UpdRecLoc {0} UpdField {0} UpdFieldLoc {0} UpdRecSub {0} MsgRecSnpRecv {0} MsgFieldSnpRecv {0} MsgRecSnpSent {0} MsgFieldSnpSent {0} MsgRecRecv {0} MsgFieldRecv {0} MsgRecSent {0} MsgFieldSent {0} pUpdRec {0} pUpdRecLoc {0} pUpdField {0} pUpdFieldLoc {0} pUpdRecSub {0} pMsgRecSnpRecv {0} pMsgFieldSnpRecv {0} pMsgRecSnpSent {0} pMsgFieldSnpSent {0} pMsgRecRecv {0} pMsgFieldRecv {0} pMsgRecSent {0} pMsgFieldSent {0} WLogBytes {0} AvgIOTPut {0} SyncLogWaitMsecs {0} SyncLogThreadsSus {0} LostLogTraces {0} ClientID {-1} PlatformID {-1} UTCOffset {+05:30}
+01:45:55:491495|0123-00051:PSH::HWINFO arch {amd64} numproc {22} mem {32985808K} os {Windows 11} osversion {10.0} timezone {India Standard Time}
+01:45:55:507839|0022-00001:PSH::EVENT START
+01:45:55:513487|0043-00001:MkvRuntime registered to MemoryMXBean
+01:45:55:515048|0083-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Eden Space} Threshold {1}
+01:45:55:515110|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Eden Space} CollectionUsageCount {0} Committed {20480} Init {24576} Max {0} Used {0}
+01:45:55:515132|0080-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Old Gen} Threshold {1}
+01:45:55:515148|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Old Gen} CollectionUsageCount {0} Committed {0} Init {491520} Max {8249344} Used {0}
+01:45:55:515163|0087-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Survivor Space} Threshold {1}
+01:45:55:515178|0131-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Survivor Space} CollectionUsageCount {0} Committed {4096} Init {0} Max {0} Used {4096}
+01:45:55:519523|0410-00001:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {1} CollectionTime {9} StartTime {892} Duration {9} MemoryPool {G1 Eden Space} Committed {24576 20480} Init {24576 24576} Max {0 0} Used {24576 0} MemoryPool {G1 Survivor Space} Committed {0 4096} Init {0 0} Max {0 0} Used {0 4096} MemoryPool {G1 Old Gen} Committed {491520 491520} Init {491520 491520} Max {8249344 8249344} Used {8192 4676}
+01:45:55:519588|0088-00001:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {0} CollectionTime {0}
+01:45:55:519619|0089-00001:MkvRuntime::GCInfoExt GC {G1 Old Generation} CollectionCount {0} CollectionTime {0}
+01:45:55:519870|0068-00001:##############################################################
+01:45:55:520100|0061-00001:  Simple ION 2.0 Bond Price Application Server Starting
+01:45:55:520243|0029-00001:  Application v0.0.1 na
+01:45:55:520256|0068-00001:##############################################################
+01:45:55:830368|0419-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {2} CollectionTime {17} StartTime {1519} Duration {8} MemoryPool {G1 Eden Space} Committed {20480 45056} Init {24576 24576} Max {0 0} Used {16384 0} MemoryPool {G1 Survivor Space} Committed {4096 4096} Init {0 0} Max {0 0} Used {4096 4096} MemoryPool {G1 Old Gen} Committed {491520 466944} Init {491520 491520} Max {8249344 8249344} Used {4676 13679}
+01:45:56:471791|0061-00001:PSH::VarName[log_threadname],VarValue[0],Type[3],Desc[]
+01:45:56:471908|0060-00001:PSH::VarName[log_name],VarValue[Avirat],Type[3],Desc[]
+01:45:56:472337|0061-00001:PSH::VarName[log_threshold],VarValue[10],Type[3],Desc[]
+01:45:56:640789|0420-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {3} CollectionTime {25} StartTime {2331} Duration {8} MemoryPool {G1 Eden Space} Committed {45056 57344} Init {24576 24576} Max {0 0} Used {36864 0} MemoryPool {G1 Survivor Space} Committed {4096 8192} Init {0 0} Max {0 0} Used {4096 8192} MemoryPool {G1 Old Gen} Committed {466944 450560} Init {491520 491520} Max {8249344 8249344} Used {13679 13871}
+01:45:56:652984|0229-00027:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {1} CollectionTime {2} StartTime {2349} Duration {2} MemoryPool {G1 Old Gen} Committed {450560 16384} Init {491520 491520} Max {8249344 8249344} Used {13871 13871}
+01:45:56:680696|0065-00001:PSH::VarName[source],VarValue[Avirat_Source],Type[1],Desc[]
+01:45:56:680876|0062-00001:PSH::VarName[insight.enabled],VarValue[1],Type[3],Desc[]
+01:45:56:681396|0069-00001:PSH::VarName[resource_probe.enabled],VarValue[1],Type[3],Desc[]
+01:45:56:681809|0074-00001:PSH::VarName[insight.file_export.enabled],VarValue[1],Type[3],Desc[]
+01:45:56:681874|0081-00001:PSH::VarName[executor.monitoring.poll_interval],VarValue[60],Type[3],Desc[]
+01:45:56:681984|0092-00001:PSH::VarName[executor.monitoring.show_locked_synchronizers],VarValue[0],Type[3],Desc[]
+01:45:56:682090|0075-00001:PSH::VarName[insight.metric_set.black_list],VarValue[],Type[3],Desc[]
+01:45:56:682179|0083-00001:PSH::VarName[executor.monitoring.dump_interval],VarValue[3600],Type[3],Desc[]
+01:45:56:682806|0071-00001:PSH::VarName[executor.core.pool_size],VarValue[-1],Type[3],Desc[]
+01:45:56:682932|0076-00001:PSH::VarName[executor.core.keepalive_time],VarValue[-1],Type[3],Desc[]
+01:45:56:682963|0085-00001:PSH::VarName[readiness.cluster_notification.enabled],VarValue[1],Type[3],Desc[]
+01:45:56:682991|0064-00001:PSH::VarName[readiness.enabled],VarValue[1],Type[3],Desc[]
+01:45:56:683021|0075-00001:PSH::VarName[executor.core.max_pool_size],VarValue[-1],Type[3],Desc[]
+01:45:56:683045|0074-00001:PSH::VarName[executor.monitoring.enabled],VarValue[1],Type[3],Desc[]
+01:45:56:683070|0083-00001:PSH::VarName[application_server.plugins_dir],VarValue[plugins],Type[3],Desc[]
+01:45:56:683114|0086-00001:PSH::VarName[executor.monitoring.warning_threshold],VarValue[120],Type[3],Desc[]
+01:45:56:683204|0080-00001:PSH::VarName[insight.prometheus.exporter.port],VarValue[-1],Type[3],Desc[]
+01:45:56:683233|0057-00001:PSH::VarName[currency],VarValue[ALL],Type[3],Desc[]
+01:45:56:683887|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:45:56:730475|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51636::kubernetes.docker.internal:13000 [Owner true] ===========
+01:45:56:737968|0101-00069:PSH::Conn[/127.0.0.1:51636::kubernetes.docker.internal:13000] Daemon, native SSL handshake=true
+01:45:56:805668|0176-00069:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:45:56:856653|0087-00069:PSH::Conn[/127.0.0.1:51636::kubernetes.docker.internal:13000] SSL Handshake start
+01:45:56:883535|0521-00069:PSH::Conn[/127.0.0.1:51636::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+java.io.EOFException: Read failure on socket channel.
+	at com.iontrading.utils.ak.a(SSLHelpers.java:406)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:372)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:45:56:884299|0120-00069:PSH::Conn[/127.0.0.1:51636::kubernetes.docker.internal:13000] Daemon, switching to ION standard handshake with SSL
+01:45:56:885322|1397-00069:PSH::ERROR Conn[/127.0.0.1:51636::kubernetes.docker.internal:13000] Negotiation problem: An established connection was aborted by the software in your host machine
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:295)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at com.iontrading.proactor.e.b(ASocketChannelInputStream.java:166)
+	at com.iontrading.proactor.e.d(ASocketChannelInputStream.java:219)
+	at com.iontrading.proactor.e.read(ASocketChannelInputStream.java:259)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at com.iontrading.OSP.d.a(OspInputStream.java:31)
+	at com.iontrading.OSP.packets.b.a(Header.java:23)
+	at com.iontrading.OSP.d.a(OspInputStream.java:106)
+	at com.iontrading.OSP.f$a.b(OspStream.java:170)
+	at com.iontrading.OSP.f.a(OspStream.java:280)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:45:56:885953|0027-00069:OPS handshake failed!
+01:46:01:694293|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:46:01:716445|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51653::kubernetes.docker.internal:13000 [Owner true] ===========
+01:46:01:722757|0102-00071:PSH::Conn[/127.0.0.1:51653::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:46:01:725925|0176-00071:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:46:01:726855|0087-00071:PSH::Conn[/127.0.0.1:51653::kubernetes.docker.internal:13000] SSL Handshake start
+01:46:01:742675|1354-00071:PSH::Conn[/127.0.0.1:51653::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:46:01:743093|0140-00071:PSH::Conn[/127.0.0.1:51653::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:46:01:743237|0140-00071:PSH::Conn[/127.0.0.1:51653::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:46:01:743256|1408-00071:PSH::ERROR Conn[/127.0.0.1:51653::kubernetes.docker.internal:13000] Negotiation problem: (handshake_failure) Received fatal alert: handshake_failure
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:46:01:744165|0027-00071:OPS handshake failed!
+01:46:06:701953|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:46:06:720646|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51667::kubernetes.docker.internal:13000 [Owner true] ===========
+01:46:06:725618|0102-00073:PSH::Conn[/127.0.0.1:51667::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:46:06:738999|0097-00073:PSH::Conn[/127.0.0.1:51667::kubernetes.docker.internal:13000] Setting max block size: 32768
+01:46:06:744568|0098-00073:PSH::Conn[/127.0.0.1:51667::kubernetes.docker.internal:13000] Setting up alive timer: 120000
+01:46:06:758608|0085-00073:PSH::Register  IN  [SUCCESS] Protocol {1} CipherSuite {none} {Avirat} <--> {CS}
+01:46:06:759758|0025-00073:PSH::EVENT REGISTER
+01:46:06:774270|0102-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPPROFILE
+01:46:06:776940|0096-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPS
+01:46:06:777128|0104-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PLATFORM_USERS
+01:46:06:777219|0098-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PROFILES
+01:46:06:777296|0099-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERGROUP
+01:46:06:777374|0101-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERPROFILE
+01:46:06:788554|0063-00073:PSH::EVENT COMPONENT: [$(Avirat)_$(Machine)],[REGISTERED]
+01:46:06:789097|0049-00073:PSH::EVENT COMPONENT: [Avirat],[REGISTERED]
+01:46:06:789931|0053-00073:PSH::EVENT COMPONENT: [ROUTER_CF1],[REGISTERED]
+01:46:06:790062|0045-00073:PSH::EVENT COMPONENT: [da],[REGISTERED]
+01:46:06:790157|0045-00073:PSH::EVENT COMPONENT: [dh],[REGISTERED]
+01:46:10:952987|0031-00073:PSH::Setting USEMSECS {1}
+01:46:10:953472|0031-00073:PSH::Setting statime {60}
+01:46:12:957431|0061-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERGROUP
+01:46:12:957658|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:12:958553|0060-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PROFILES
+01:46:12:958581|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:12:958613|0063-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERPROFILE
+01:46:12:958619|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:12:958633|0064-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPPROFILE
+01:46:12:958638|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:12:958652|0066-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PLATFORM_USERS
+01:46:12:958656|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:12:961224|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962058|0062-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_COMPONENTS} Id {1}
+01:46:12:962255|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962268|0061-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_PROCESSES} Id {2}
+01:46:12:962327|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962334|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICES} Id {5}
+01:46:12:962375|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962386|0063-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICEVIEW} Id {7}
+01:46:12:962429|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962435|0058-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SYSTEM} Id {3}
+01:46:12:962476|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962482|0057-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERS} Id {4}
+01:46:12:962520|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:12:962529|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERVIEW} Id {6}
+01:46:12:962536|0058-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPS
+01:46:12:962549|0077-00073:PSH::UserGroupProfile: Notifying all chain downloaded for REGISTER_IDLE
+01:46:12:962647|0030-00073:PSH::EVENT REGISTER_IDLE
+01:46:12:963079|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:12:963165|0054-00073:ESLib: Trying subscription of ES Chain, Source: 
+01:46:12:964844|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:13:344800|0068-00076:##############################################################
+01:46:13:344828|0020-00076:  FATAL ERROR!
+01:46:13:345543|0262-00076:  Message {java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}}
+01:46:13:345558|0068-00076:##############################################################
+01:46:13:345584|2589-00076:Stacktrace:
+com.iontrading.isf.boot.spi.a: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:47)
+	at com.iontrading.isf.boot.impl.b.start(BootServices.java:75)
+	at com.iontrading.isf.applicationserver.impl.d.a(ISFAppBuilder.java:40)
+	at com.iontrading.isf.applicationserver.impl.ISFBootstrap$1.a(ISFBootstrap.java:141)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:263)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:184)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:124)
+	at com.iontrading.talk.metadata.factory.f.createMetadata(MethodMetadataFactoryImpl.java:74)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.metadata.a.a(JmixFunctionMetadataFactory.java:58)
+	at com.iontrading.talk.ionbus.metadata.a.createMetadata(JmixFunctionMetadataFactory.java:39)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.functions.impl.b$1.a(ExporterImpl.java:172)
+	at com.iontrading.talk.ionbus.functions.impl.h.a(JmixServiceWrapper.java:58)
+	at com.iontrading.talk.ionbus.functions.impl.b.a(ExporterImpl.java:214)
+	at com.iontrading.talk.ionbus.functions.impl.b.exportFunctions(ExporterImpl.java:155)
+	at com.iontrading.talk.ionbus.functions.impl.b.start(ExporterImpl.java:240)
+	at com.iontrading.isf.boot.impl.a.start(BootServiceWrapper.java:65)
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:42)
+	... 4 more
+
+01:46:17:947449|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:46:17:947969|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:46:23:349948|0021-00080:PSH::EVENT STOP
+01:46:23:354399|0134-00080:ESLib: Namespace Add: Namespace: KafkaService, Enabled: true, FlatRules: false, ProfileAware: false, ExtSource: null, Active: -1
+01:46:28:256231|0068-00001:##############################################################
+01:46:28:256683|0039-00001:  ION Bus Java Component Starting
+01:46:28:256756|0052-00001:  ION Bus Java API v1.6.8-p8d7 August 01, 2024
+01:46:28:256789|0068-00001:##############################################################
+01:46:28:257777|0035-00001:PSH::Tinfo UTCOffset {+05:30}
+01:46:28:257858|0062-00001:JAVA::PropertyName [java.version] PropertyValue [23.0.2]
+01:46:28:257924|0073-00001:JAVA::PropertyName [java.vendor] PropertyValue [Oracle Corporation]
+01:46:28:257953|0083-00001:JAVA::PropertyName [java.vendor.url] PropertyValue [https://java.oracle.com/]
+01:46:28:257983|0081-00001:JAVA::PropertyName [java.home] PropertyValue [C:\Program Files\Java\jdk-23]
+01:46:28:258022|0075-00001:JAVA::PropertyName [java.vm.specification.version] PropertyValue [23]
+01:46:28:258050|0090-00001:JAVA::PropertyName [java.vm.specification.vendor] PropertyValue [Oracle Corporation]
+01:46:28:258080|0104-00001:JAVA::PropertyName [java.vm.specification.name] PropertyValue [Java Virtual Machine Specification]
+01:46:28:258153|0070-00001:JAVA::PropertyName [java.vm.version] PropertyValue [23.0.2+7-58]
+01:46:28:258181|0076-00001:JAVA::PropertyName [java.vm.vendor] PropertyValue [Oracle Corporation]
+01:46:28:258209|0089-00001:JAVA::PropertyName [java.vm.name] PropertyValue [Java HotSpot(TM) 64-Bit Server VM]
+01:46:28:258237|0072-00001:JAVA::PropertyName [java.specification.version] PropertyValue [23]
+01:46:28:258266|0087-00001:JAVA::PropertyName [java.specification.vendor] PropertyValue [Oracle Corporation]
+01:46:28:258294|0098-00001:JAVA::PropertyName [java.specification.name] PropertyValue [Java Platform API Specification]
+01:46:28:258322|0066-00001:JAVA::PropertyName [java.class.version] PropertyValue [67.0]
+01:46:28:258347|0107-00001:JAVA::PropertyName [java.class.path] PropertyValue [target/COOL_Onboarding_Activity-1.0-SNAPSHOT.jar]
+01:46:28:258457|2316-00001:JAVA::PropertyName [java.library.path] PropertyValue [C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;;.]
+01:46:28:258838|0099-00001:JAVA::PropertyName [java.io.tmpdir] PropertyValue [C:\Users\AVIRAT~1.SHA\AppData\Local\Temp\]
+01:46:28:259247|0061-00001:JAVA::PropertyName [java.compiler] PropertyValue [null]
+01:46:28:259462|0061-00001:JAVA::PropertyName [java.ext.dirs] PropertyValue [null]
+01:46:28:259509|0061-00001:JAVA::PropertyName [os.name] PropertyValue [Windows 11]
+01:46:28:259555|0056-00001:JAVA::PropertyName [os.arch] PropertyValue [amd64]
+01:46:28:259581|0058-00001:JAVA::PropertyName [os.version] PropertyValue [10.0]
+01:46:28:259606|0059-00001:JAVA::PropertyName [file.separator] PropertyValue [\]
+01:46:28:259628|0059-00001:JAVA::PropertyName [path.separator] PropertyValue [;]
+01:46:28:259649|0060-00001:JAVA::PropertyName [line.separator] PropertyValue [
+]
+01:46:28:259671|0066-00001:JAVA::PropertyName [user.name] PropertyValue [avirat.sharma]
+01:46:28:259693|0075-00001:JAVA::PropertyName [user.home] PropertyValue [C:\Users\avirat.sharma]
+01:46:28:259727|0166-00001:JAVA::PropertyName [user.dir] PropertyValue [C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity]
+01:46:28:260160|0058-00001:JAVA::PropertyName [command_line] PropertyValue [[]]
+01:46:28:260384|0070-00001:PSH::VarName[adaptlog.maxsyncwait],VarValue[2000],Type[3],Desc[]
+01:46:28:260428|0080-00001:PSH::VarName[adaptlog.mindiskthroughput],VarValue[50000000],Type[3],Desc[]
+01:46:28:260463|0070-00001:PSH::VarName[applicationlogsthreadid],VarValue[1],Type[3],Desc[]
+01:46:28:260508|0060-00001:PSH::VarName[audit_enabled],VarValue[1],Type[3],Desc[]
+01:46:28:260754|0060-00001:PSH::VarName[audit_journal],VarValue[1],Type[3],Desc[]
+01:46:28:260840|0070-00001:PSH::VarName[audit_source],VarValue[AUDIT_SERVER],Type[3],Desc[]
+01:46:28:260884|0055-00001:PSH::VarName[calive],VarValue[240],Type[3],Desc[]
+01:46:28:260908|0070-00001:PSH::VarName[chain.contentsub.enable],VarValue[0],Type[3],Desc[]
+01:46:28:260929|0059-00001:PSH::VarName[cidletimeout],VarValue[5],Type[3],Desc[]
+01:46:28:260952|0061-00001:PSH::VarName[COMPONENT],VarValue[Avirat],Type[1],Desc[]
+01:46:28:260973|0075-00001:PSH::VarName[connection_failure_threshold],VarValue[5],Type[3],Desc[]
+01:46:28:260995|0066-00001:PSH::VarName[cpustat_threshold],VarValue[100],Type[3],Desc[]
+01:46:28:261015|0061-00001:PSH::VarName[CSHOST],VarValue[127.0.0.1],Type[1],Desc[]
+01:46:28:261037|0057-00001:PSH::VarName[CSPORT],VarValue[13000],Type[1],Desc[]
+01:46:28:261057|0056-00001:PSH::VarName[csretry],VarValue[300],Type[3],Desc[]
+01:46:28:261077|0055-00001:PSH::VarName[ctimeout],VarValue[5],Type[3],Desc[]
+01:46:28:261097|0079-00001:PSH::VarName[data_dictionary.initial_size],VarValue[15000],Type[3],Desc[]
+01:46:28:261120|0051-00001:PSH::VarName[DBDIR],VarValue[],Type[3],Desc[]
+01:46:28:261139|0055-00001:PSH::VarName[dblogerr],VarValue[0],Type[3],Desc[]
+01:46:28:261160|0065-00001:PSH::VarName[deadlock_detection],VarValue[1],Type[3],Desc[]
+01:46:28:261181|0068-00001:PSH::VarName[debug],VarValue[100],Type[3],Desc[Trace on files]
+01:46:28:261240|0090-00001:PSH::VarName[debug.eslib],VarValue[1],Type[3],Desc[Trace for ESLib queries on files]
+01:46:28:261275|0058-00001:PSH::VarName[debug.supply],VarValue[],Type[3],Desc[]
+01:46:28:261335|0058-00001:PSH::VarName[dinputscript],VarValue[],Type[3],Desc[]
+01:46:28:261362|0058-00001:PSH::VarName[dlocalscript],VarValue[],Type[3],Desc[]
+01:46:28:261430|0061-00001:PSH::VarName[drecorderextobj],VarValue[],Type[3],Desc[]
+01:46:28:261455|0061-00001:PSH::VarName[drecorderownobj],VarValue[],Type[3],Desc[]
+01:46:28:261538|0061-00001:PSH::VarName[drecorderscript],VarValue[],Type[3],Desc[]
+01:46:28:261566|0057-00001:PSH::VarName[dtblocking],VarValue[1],Type[3],Desc[]
+01:46:28:261586|0060-00001:PSH::VarName[dtblocksize],VarValue[256],Type[3],Desc[]
+01:46:28:261622|0060-00001:PSH::VarName[dtflowcontrol],VarValue[1],Type[3],Desc[]
+01:46:28:261641|0058-00001:PSH::VarName[dtflushtime],VarValue[2],Type[3],Desc[]
+01:46:28:261660|0057-00001:PSH::VarName[dtsyncsend],VarValue[0],Type[3],Desc[]
+01:46:28:261679|0063-00001:PSH::VarName[e2enative.enable],VarValue[1],Type[3],Desc[]
+01:46:28:261696|0055-00001:PSH::VarName[ENABLESSL],VarValue[],Type[3],Desc[]
+01:46:28:261719|0062-00001:PSH::VarName[ent_reqtimeout],VarValue[60],Type[3],Desc[]
+01:46:28:261736|0056-00001:PSH::VarName[ent_source],VarValue[],Type[3],Desc[]
+01:46:28:261753|0062-00001:PSH::VarName[filebuffer],VarValue[131072],Type[3],Desc[]
+01:46:28:261770|0067-00001:PSH::VarName[full_unicode_support],VarValue[1],Type[3],Desc[]
+01:46:28:261788|0056-00001:PSH::VarName[gctrace],VarValue[all],Type[3],Desc[]
+01:46:28:261919|0078-00001:PSH::VarName[ignore_daemon_object_collisions],VarValue[1],Type[3],Desc[]
+01:46:28:261974|0081-00001:PSH::VarName[ignore_like_type_object_collisions],VarValue[1],Type[3],Desc[]
+01:46:28:261997|0066-00001:PSH::VarName[keystore.client.path],VarValue[],Type[3],Desc[]
+01:46:28:262020|0066-00001:PSH::VarName[keystore.server.path],VarValue[],Type[3],Desc[]
+01:46:28:262038|0062-00001:PSH::VarName[keystores_path],VarValue[.\],Type[3],Desc[]
+01:46:28:262057|0053-00001:PSH::VarName[LISTEN],VarValue[0],Type[3],Desc[]
+01:46:28:262112|0060-00001:PSH::VarName[listenbacklog],VarValue[0],Type[3],Desc[]
+01:46:28:262162|0061-00001:PSH::VarName[logcustomstats],VarValue[1],Type[3],Desc[]
+01:46:28:262224|0059-00001:PSH::VarName[logformat],VarValue[utf8],Type[3],Desc[]
+01:46:28:262274|0056-00001:PSH::VarName[logsasync],VarValue[1],Type[3],Desc[]
+01:46:28:262296|0062-00001:PSH::VarName[logsasyncwait],VarValue[200],Type[3],Desc[]
+01:46:28:262384|0061-00001:PSH::VarName[logsbuffersize],VarValue[1],Type[3],Desc[]
+01:46:28:262507|0055-00001:PSH::VarName[logsdays],VarValue[2],Type[3],Desc[]
+01:46:28:262594|0053-00001:PSH::VarName[LOGSDIR],VarValue[],Type[3],Desc[]
+01:46:28:262649|0061-00001:PSH::VarName[logsflushtime],VarValue[-1],Type[3],Desc[]
+01:46:28:262724|0060-00001:PSH::VarName[logsoutput],VarValue[file],Type[3],Desc[]
+01:46:28:262754|0057-00001:PSH::VarName[maxdelay],VarValue[200],Type[3],Desc[]
+01:46:28:262788|0060-00001:PSH::VarName[maxlogsize],VarValue[1024],Type[3],Desc[]
+01:46:28:262808|0061-00001:PSH::VarName[maxqueuesize],VarValue[128],Type[3],Desc[]
+01:46:28:262826|0065-00001:PSH::VarName[memoryalert.amber],VarValue[45],Type[3],Desc[]
+01:46:28:262848|0063-00001:PSH::VarName[memoryalert.red],VarValue[50],Type[3],Desc[]
+01:46:28:262869|0058-00001:PSH::VarName[mindiskfree],VarValue[0],Type[3],Desc[]
+01:46:28:262890|0059-00001:PSH::VarName[MONITOR_PORT],VarValue[0],Type[3],Desc[]
+01:46:28:262907|0060-00001:PSH::VarName[MULTI_INSTANCE],VarValue[],Type[3],Desc[]
+01:46:28:262923|0058-00001:PSH::VarName[negtimeout],VarValue[16],Type[3],Desc[]
+01:46:28:262940|0077-00001:PSH::VarName[object_collisions_report_time],VarValue[60],Type[3],Desc[]
+01:46:28:262959|0067-00001:PSH::VarName[publishonlyrecordset],VarValue[0],Type[3],Desc[]
+01:46:28:262975|0061-00001:PSH::VarName[publish_exclude],VarValue[],Type[3],Desc[]
+01:46:28:262990|0072-00001:PSH::VarName[publish_exclude_originator],VarValue[],Type[3],Desc[]
+01:46:28:263007|0061-00001:PSH::VarName[publish_include],VarValue[],Type[3],Desc[]
+01:46:28:263024|0072-00001:PSH::VarName[publish_include_originator],VarValue[],Type[3],Desc[]
+01:46:28:263041|0058-00001:PSH::VarName[redirstderr],VarValue[1],Type[3],Desc[]
+01:46:28:263056|0076-00001:PSH::VarName[registerclientprotocolversion],VarValue[4],Type[3],Desc[]
+01:46:28:263073|0064-00001:PSH::VarName[resolve_hostnames],VarValue[0],Type[3],Desc[]
+01:46:28:263090|0055-00001:PSH::VarName[rtdelay],VarValue[60],Type[3],Desc[]
+01:46:28:263106|0061-00001:PSH::VarName[security_level],VarValue[0],Type[3],Desc[]
+01:46:28:263122|0052-00001:PSH::VarName[server],VarValue[],Type[3],Desc[]
+01:46:28:263140|0055-00001:PSH::VarName[statime],VarValue[60],Type[3],Desc[]
+01:46:28:263156|0058-00001:PSH::VarName[statime_sub],VarValue[1],Type[3],Desc[]
+01:46:28:263172|0059-00001:PSH::VarName[syscomponent],VarValue[0],Type[3],Desc[]
+01:46:28:263192|0061-00001:PSH::VarName[tcp_buffer],VarValue[65536],Type[3],Desc[]
+01:46:28:263209|0058-00001:PSH::VarName[tcp_nodelay],VarValue[1],Type[3],Desc[]
+01:46:28:263225|0063-00001:PSH::VarName[traces.broadcast],VarValue[1],Type[3],Desc[]
+01:46:28:263242|0081-00001:PSH::VarName[trace_dt],VarValue[10],Type[3],Desc[Data Transfer trace level]
+01:46:28:263262|0064-00001:PSH::VarName[ultra_low_latency],VarValue[0],Type[3],Desc[]
+01:46:28:263279|0082-00001:PSH::VarName[ultra_low_latency.driver_timeout],VarValue[5000],Type[3],Desc[]
+01:46:28:263298|0055-00001:PSH::VarName[usemsecs],VarValue[1],Type[3],Desc[]
+01:46:28:263314|0053-00001:PSH::VarName[USER],VarValue[mkv],Type[1],Desc[]
+01:46:28:263330|0059-00001:PSH::VarName[userecordset],VarValue[0],Type[3],Desc[]
+01:46:28:263350|0063-00001:PSH::VarName[winnative.enable],VarValue[1],Type[3],Desc[]
+01:46:28:263513|0049-00001:PSH::VarName[www],VarValue[],Type[3],Desc[]
+01:46:28:263560|0054-00001:PSH::VarName[wwwport],VarValue[0],Type[3],Desc[]
+01:46:28:266347|0062-00001:PSH::VarName[eslib.pool_size],VarValue[4],Type[3],Desc[]
+01:46:28:266579|0069-00001:PSH::VarName[eslib.high_load_factor],VarValue[2],Type[3],Desc[]
+01:46:28:266822|0068-00001:PSH::VarName[eslib.low_load_factor],VarValue[1],Type[3],Desc[]
+01:46:28:266904|0065-00001:PSH::VarName[eslib.custom_stats],VarValue[0],Type[3],Desc[]
+01:46:28:270802|0065-00001:PSH::VarName[tickdata.precision],VarValue[0],Type[3],Desc[]
+01:46:28:270922|0060-00001:PSH::VarName[stack_on_stop],VarValue[0],Type[3],Desc[]
+01:46:28:287846|1083-00051:Pinfo Component {Avirat} Type {PUB} APIVersion {1.6.8-p8d7} ApplVersion {0.0.1} SysUtilsKind {win} NanoTimeKind {generic} FReq {60} PID {30112} MemSize {18065} MemPct {0.22} JVMVersion {23.0.2,Java HotSpot(TM) 64-Bit Server VM} JVMTotalMemory {516096} JVMFreeMemory {497990} JVMMaxTotalMemory {8249344} CPUTime {00:00:02:468} CPUAvg {368.5} CPUPeak {368.5} CPUPeakTime {00:00:00:000} Pub {0} PubLoc {0} SubRec {0} SubRecLoc {0} SubField {0} SubFieldLoc {0} SupRec {0} SupRecLoc {0} SupField {0} SupFieldLoc {0} UpdRec {0} UpdRecLoc {0} UpdField {0} UpdFieldLoc {0} UpdRecSub {0} MsgRecSnpRecv {0} MsgFieldSnpRecv {0} MsgRecSnpSent {0} MsgFieldSnpSent {0} MsgRecRecv {0} MsgFieldRecv {0} MsgRecSent {0} MsgFieldSent {0} pUpdRec {0} pUpdRecLoc {0} pUpdField {0} pUpdFieldLoc {0} pUpdRecSub {0} pMsgRecSnpRecv {0} pMsgFieldSnpRecv {0} pMsgRecSnpSent {0} pMsgFieldSnpSent {0} pMsgRecRecv {0} pMsgFieldRecv {0} pMsgRecSent {0} pMsgFieldSent {0} WLogBytes {0} AvgIOTPut {0} SyncLogWaitMsecs {0} SyncLogThreadsSus {0} LostLogTraces {0} ClientID {-1} PlatformID {-1} UTCOffset {+05:30}
+01:46:28:288097|0123-00051:PSH::HWINFO arch {amd64} numproc {22} mem {32985808K} os {Windows 11} osversion {10.0} timezone {India Standard Time}
+01:46:28:294205|0066-00001:ESLib: Starting ESLib on EntSource {} with QueryTimeout {60}
+01:46:28:317172|0022-00001:PSH::EVENT START
+01:46:28:322529|0043-00001:MkvRuntime registered to MemoryMXBean
+01:46:28:324172|0083-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Eden Space} Threshold {1}
+01:46:28:324234|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Eden Space} CollectionUsageCount {0} Committed {20480} Init {24576} Max {0} Used {0}
+01:46:28:324255|0080-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Old Gen} Threshold {1}
+01:46:28:324269|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Old Gen} CollectionUsageCount {0} Committed {0} Init {491520} Max {8249344} Used {0}
+01:46:28:324284|0087-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Survivor Space} Threshold {1}
+01:46:28:324298|0131-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Survivor Space} CollectionUsageCount {0} Committed {4096} Init {0} Max {0} Used {4096}
+01:46:28:329820|0410-00001:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {1} CollectionTime {7} StartTime {951} Duration {8} MemoryPool {G1 Eden Space} Committed {24576 20480} Init {24576 24576} Max {0 0} Used {24576 0} MemoryPool {G1 Survivor Space} Committed {0 4096} Init {0 0} Max {0 0} Used {0 4096} MemoryPool {G1 Old Gen} Committed {491520 491520} Init {491520 491520} Max {8249344 8249344} Used {8192 4793}
+01:46:28:329909|0088-00001:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {0} CollectionTime {0}
+01:46:28:329936|0089-00001:MkvRuntime::GCInfoExt GC {G1 Old Generation} CollectionCount {0} CollectionTime {0}
+01:46:28:330251|0068-00001:##############################################################
+01:46:28:330499|0061-00001:  Simple ION 2.0 Bond Price Application Server Starting
+01:46:28:330658|0029-00001:  Application v0.0.1 na
+01:46:28:330670|0068-00001:##############################################################
+01:46:28:714611|0419-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {2} CollectionTime {14} StartTime {1604} Duration {7} MemoryPool {G1 Eden Space} Committed {20480 45056} Init {24576 24576} Max {0 0} Used {16384 0} MemoryPool {G1 Survivor Space} Committed {4096 4096} Init {0 0} Max {0 0} Used {4096 4096} MemoryPool {G1 Old Gen} Committed {491520 466944} Init {491520 491520} Max {8249344 8249344} Used {4793 12686}
+01:46:29:331890|0061-00001:PSH::VarName[log_threadname],VarValue[0],Type[3],Desc[]
+01:46:29:332025|0060-00001:PSH::VarName[log_name],VarValue[Avirat],Type[3],Desc[]
+01:46:29:332666|0061-00001:PSH::VarName[log_threshold],VarValue[10],Type[3],Desc[]
+01:46:29:502032|0420-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {3} CollectionTime {20} StartTime {2396} Duration {5} MemoryPool {G1 Eden Space} Committed {45056 57344} Init {24576 24576} Max {0 0} Used {36864 0} MemoryPool {G1 Survivor Space} Committed {4096 8192} Init {0 0} Max {0 0} Used {4096 7687} MemoryPool {G1 Old Gen} Committed {466944 450560} Init {491520 491520} Max {8249344 8249344} Used {12686 12686}
+01:46:29:514808|0229-00027:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {1} CollectionTime {2} StartTime {2411} Duration {2} MemoryPool {G1 Old Gen} Committed {450560 16384} Init {491520 491520} Max {8249344 8249344} Used {12686 12686}
+01:46:29:538841|0065-00001:PSH::VarName[source],VarValue[Avirat_Source],Type[1],Desc[]
+01:46:29:539037|0062-00001:PSH::VarName[insight.enabled],VarValue[1],Type[3],Desc[]
+01:46:29:539630|0069-00001:PSH::VarName[resource_probe.enabled],VarValue[1],Type[3],Desc[]
+01:46:29:540028|0074-00001:PSH::VarName[insight.file_export.enabled],VarValue[1],Type[3],Desc[]
+01:46:29:540081|0081-00001:PSH::VarName[executor.monitoring.poll_interval],VarValue[60],Type[3],Desc[]
+01:46:29:540183|0092-00001:PSH::VarName[executor.monitoring.show_locked_synchronizers],VarValue[0],Type[3],Desc[]
+01:46:29:540276|0075-00001:PSH::VarName[insight.metric_set.black_list],VarValue[],Type[3],Desc[]
+01:46:29:540353|0083-00001:PSH::VarName[executor.monitoring.dump_interval],VarValue[3600],Type[3],Desc[]
+01:46:29:540824|0071-00001:PSH::VarName[executor.core.pool_size],VarValue[-1],Type[3],Desc[]
+01:46:29:541164|0076-00001:PSH::VarName[executor.core.keepalive_time],VarValue[-1],Type[3],Desc[]
+01:46:29:541202|0085-00001:PSH::VarName[readiness.cluster_notification.enabled],VarValue[1],Type[3],Desc[]
+01:46:29:541231|0064-00001:PSH::VarName[readiness.enabled],VarValue[1],Type[3],Desc[]
+01:46:29:541260|0075-00001:PSH::VarName[executor.core.max_pool_size],VarValue[-1],Type[3],Desc[]
+01:46:29:541286|0074-00001:PSH::VarName[executor.monitoring.enabled],VarValue[1],Type[3],Desc[]
+01:46:29:541312|0083-00001:PSH::VarName[application_server.plugins_dir],VarValue[plugins],Type[3],Desc[]
+01:46:29:541368|0086-00001:PSH::VarName[executor.monitoring.warning_threshold],VarValue[120],Type[3],Desc[]
+01:46:29:541457|0080-00001:PSH::VarName[insight.prometheus.exporter.port],VarValue[-1],Type[3],Desc[]
+01:46:29:541487|0057-00001:PSH::VarName[currency],VarValue[ALL],Type[3],Desc[]
+01:46:29:542410|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:46:29:589625|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51712::kubernetes.docker.internal:13000 [Owner true] ===========
+01:46:29:596873|0101-00069:PSH::Conn[/127.0.0.1:51712::kubernetes.docker.internal:13000] Daemon, native SSL handshake=true
+01:46:29:668051|0176-00069:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:46:29:727558|0087-00069:PSH::Conn[/127.0.0.1:51712::kubernetes.docker.internal:13000] SSL Handshake start
+01:46:29:763136|0521-00069:PSH::Conn[/127.0.0.1:51712::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+java.io.EOFException: Read failure on socket channel.
+	at com.iontrading.utils.ak.a(SSLHelpers.java:406)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:372)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:46:29:763983|0120-00069:PSH::Conn[/127.0.0.1:51712::kubernetes.docker.internal:13000] Daemon, switching to ION standard handshake with SSL
+01:46:29:765254|1397-00069:PSH::ERROR Conn[/127.0.0.1:51712::kubernetes.docker.internal:13000] Negotiation problem: An established connection was aborted by the software in your host machine
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:295)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at com.iontrading.proactor.e.b(ASocketChannelInputStream.java:166)
+	at com.iontrading.proactor.e.d(ASocketChannelInputStream.java:219)
+	at com.iontrading.proactor.e.read(ASocketChannelInputStream.java:259)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at com.iontrading.OSP.d.a(OspInputStream.java:31)
+	at com.iontrading.OSP.packets.b.a(Header.java:23)
+	at com.iontrading.OSP.d.a(OspInputStream.java:106)
+	at com.iontrading.OSP.f$a.b(OspStream.java:170)
+	at com.iontrading.OSP.f.a(OspStream.java:280)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:46:29:766124|0027-00069:OPS handshake failed!
+01:46:34:551006|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:46:34:572272|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51715::kubernetes.docker.internal:13000 [Owner true] ===========
+01:46:34:578925|0102-00071:PSH::Conn[/127.0.0.1:51715::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:46:34:590543|0176-00071:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:46:34:591530|0087-00071:PSH::Conn[/127.0.0.1:51715::kubernetes.docker.internal:13000] SSL Handshake start
+01:46:34:605580|1354-00071:PSH::Conn[/127.0.0.1:51715::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:46:34:606227|0140-00071:PSH::Conn[/127.0.0.1:51715::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:46:34:606358|0140-00071:PSH::Conn[/127.0.0.1:51715::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:46:34:606375|1408-00071:PSH::ERROR Conn[/127.0.0.1:51715::kubernetes.docker.internal:13000] Negotiation problem: (handshake_failure) Received fatal alert: handshake_failure
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:46:34:607427|0027-00071:OPS handshake failed!
+01:46:39:567133|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:46:39:589316|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51724::kubernetes.docker.internal:13000 [Owner true] ===========
+01:46:39:596612|0102-00073:PSH::Conn[/127.0.0.1:51724::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:46:39:600105|0097-00073:PSH::Conn[/127.0.0.1:51724::kubernetes.docker.internal:13000] Setting max block size: 32768
+01:46:39:610700|0098-00073:PSH::Conn[/127.0.0.1:51724::kubernetes.docker.internal:13000] Setting up alive timer: 120000
+01:46:39:637931|0085-00073:PSH::Register  IN  [SUCCESS] Protocol {1} CipherSuite {none} {Avirat} <--> {CS}
+01:46:39:639338|0025-00073:PSH::EVENT REGISTER
+01:46:39:664619|0102-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPPROFILE
+01:46:39:669249|0096-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPS
+01:46:39:670071|0104-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PLATFORM_USERS
+01:46:39:670661|0098-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PROFILES
+01:46:39:670870|0099-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERGROUP
+01:46:39:671015|0101-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERPROFILE
+01:46:39:685976|0063-00073:PSH::EVENT COMPONENT: [$(Avirat)_$(Machine)],[REGISTERED]
+01:46:39:686284|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:46:39:686453|0049-00073:PSH::EVENT COMPONENT: [Avirat],[REGISTERED]
+01:46:39:686585|0053-00073:PSH::EVENT COMPONENT: [ROUTER_CF1],[REGISTERED]
+01:46:39:686713|0045-00073:PSH::EVENT COMPONENT: [da],[REGISTERED]
+01:46:39:686830|0045-00073:PSH::EVENT COMPONENT: [dh],[REGISTERED]
+01:46:43:200262|0031-00073:PSH::Setting USEMSECS {1}
+01:46:43:200733|0031-00073:PSH::Setting statime {60}
+01:46:45:695085|0054-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[UNREGISTERED]
+01:46:46:709940|0061-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERGROUP
+01:46:46:710424|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:46:713168|0060-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PROFILES
+01:46:46:713378|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:46:713468|0063-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERPROFILE
+01:46:46:713501|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:46:713532|0064-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPPROFILE
+01:46:46:713546|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:46:713575|0066-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PLATFORM_USERS
+01:46:46:713589|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:46:728053|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:728698|0062-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_COMPONENTS} Id {1}
+01:46:46:728902|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:728922|0061-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_PROCESSES} Id {2}
+01:46:46:728984|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:728996|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICES} Id {5}
+01:46:46:729049|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:729061|0063-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICEVIEW} Id {7}
+01:46:46:729113|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:729126|0058-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SYSTEM} Id {3}
+01:46:46:729176|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:729285|0057-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERS} Id {4}
+01:46:46:729368|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:46:46:729383|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERVIEW} Id {6}
+01:46:46:729399|0058-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPS
+01:46:46:729422|0077-00073:PSH::UserGroupProfile: Notifying all chain downloaded for REGISTER_IDLE
+01:46:46:729539|0030-00073:PSH::EVENT REGISTER_IDLE
+01:46:46:729913|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:46:729975|0054-00073:ESLib: Trying subscription of ES Chain, Source: 
+01:46:46:731913|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:46:47:302834|0068-00076:##############################################################
+01:46:47:302855|0020-00076:  FATAL ERROR!
+01:46:47:303518|0262-00076:  Message {java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}}
+01:46:47:303531|0068-00076:##############################################################
+01:46:47:303550|2589-00076:Stacktrace:
+com.iontrading.isf.boot.spi.a: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:47)
+	at com.iontrading.isf.boot.impl.b.start(BootServices.java:75)
+	at com.iontrading.isf.applicationserver.impl.d.a(ISFAppBuilder.java:40)
+	at com.iontrading.isf.applicationserver.impl.ISFBootstrap$1.a(ISFBootstrap.java:141)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:263)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:184)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:124)
+	at com.iontrading.talk.metadata.factory.f.createMetadata(MethodMetadataFactoryImpl.java:74)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.metadata.a.a(JmixFunctionMetadataFactory.java:58)
+	at com.iontrading.talk.ionbus.metadata.a.createMetadata(JmixFunctionMetadataFactory.java:39)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.functions.impl.b$1.a(ExporterImpl.java:172)
+	at com.iontrading.talk.ionbus.functions.impl.h.a(JmixServiceWrapper.java:58)
+	at com.iontrading.talk.ionbus.functions.impl.b.a(ExporterImpl.java:214)
+	at com.iontrading.talk.ionbus.functions.impl.b.exportFunctions(ExporterImpl.java:155)
+	at com.iontrading.talk.ionbus.functions.impl.b.start(ExporterImpl.java:240)
+	at com.iontrading.isf.boot.impl.a.start(BootServiceWrapper.java:65)
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:42)
+	... 4 more
+
+01:46:57:312281|0021-00080:PSH::EVENT STOP
+01:46:57:316026|0134-00080:ESLib: Namespace Add: Namespace: KafkaService, Enabled: true, FlatRules: false, ProfileAware: false, ExtSource: null, Active: -1
+01:47:27:033192|0068-00001:##############################################################
+01:47:27:033513|0039-00001:  ION Bus Java Component Starting
+01:47:27:033545|0052-00001:  ION Bus Java API v1.6.8-p8d7 August 01, 2024
+01:47:27:033572|0068-00001:##############################################################
+01:47:27:034025|0035-00001:PSH::Tinfo UTCOffset {+05:30}
+01:47:27:034094|0062-00001:JAVA::PropertyName [java.version] PropertyValue [23.0.2]
+01:47:27:034270|0073-00001:JAVA::PropertyName [java.vendor] PropertyValue [Oracle Corporation]
+01:47:27:034310|0083-00001:JAVA::PropertyName [java.vendor.url] PropertyValue [https://java.oracle.com/]
+01:47:27:034343|0081-00001:JAVA::PropertyName [java.home] PropertyValue [C:\Program Files\Java\jdk-23]
+01:47:27:034371|0075-00001:JAVA::PropertyName [java.vm.specification.version] PropertyValue [23]
+01:47:27:034397|0090-00001:JAVA::PropertyName [java.vm.specification.vendor] PropertyValue [Oracle Corporation]
+01:47:27:034423|0104-00001:JAVA::PropertyName [java.vm.specification.name] PropertyValue [Java Virtual Machine Specification]
+01:47:27:034465|0070-00001:JAVA::PropertyName [java.vm.version] PropertyValue [23.0.2+7-58]
+01:47:27:034489|0076-00001:JAVA::PropertyName [java.vm.vendor] PropertyValue [Oracle Corporation]
+01:47:27:034511|0089-00001:JAVA::PropertyName [java.vm.name] PropertyValue [Java HotSpot(TM) 64-Bit Server VM]
+01:47:27:034535|0072-00001:JAVA::PropertyName [java.specification.version] PropertyValue [23]
+01:47:27:034557|0087-00001:JAVA::PropertyName [java.specification.vendor] PropertyValue [Oracle Corporation]
+01:47:27:034581|0098-00001:JAVA::PropertyName [java.specification.name] PropertyValue [Java Platform API Specification]
+01:47:27:034606|0066-00001:JAVA::PropertyName [java.class.version] PropertyValue [67.0]
+01:47:27:034626|0107-00001:JAVA::PropertyName [java.class.path] PropertyValue [target/COOL_Onboarding_Activity-1.0-SNAPSHOT.jar]
+01:47:27:034709|2316-00001:JAVA::PropertyName [java.library.path] PropertyValue [C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17\bin;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-21.0.6.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\terraform_1.10.5_windows_amd64\terraform.exe;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Java\jdk-23\bin;C:\ProgramData\chocolatey\bin;C:\Users\avirat.sharma\AppData\Roaming\Python\Python313\Scripts;C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\ION-Group\ION-Installer\AutoConfX1.6.4-p3d1\bin;C:\Program Files\Java\jdk-11\bin;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;;.]
+01:47:27:034895|0099-00001:JAVA::PropertyName [java.io.tmpdir] PropertyValue [C:\Users\AVIRAT~1.SHA\AppData\Local\Temp\]
+01:47:27:034986|0061-00001:JAVA::PropertyName [java.compiler] PropertyValue [null]
+01:47:27:035042|0061-00001:JAVA::PropertyName [java.ext.dirs] PropertyValue [null]
+01:47:27:035063|0061-00001:JAVA::PropertyName [os.name] PropertyValue [Windows 11]
+01:47:27:035157|0056-00001:JAVA::PropertyName [os.arch] PropertyValue [amd64]
+01:47:27:035248|0058-00001:JAVA::PropertyName [os.version] PropertyValue [10.0]
+01:47:27:035278|0059-00001:JAVA::PropertyName [file.separator] PropertyValue [\]
+01:47:27:035299|0059-00001:JAVA::PropertyName [path.separator] PropertyValue [;]
+01:47:27:035317|0060-00001:JAVA::PropertyName [line.separator] PropertyValue [
+]
+01:47:27:035408|0066-00001:JAVA::PropertyName [user.name] PropertyValue [avirat.sharma]
+01:47:27:035440|0075-00001:JAVA::PropertyName [user.home] PropertyValue [C:\Users\avirat.sharma]
+01:47:27:035468|0166-00001:JAVA::PropertyName [user.dir] PropertyValue [C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity]
+01:47:27:036169|0058-00001:JAVA::PropertyName [command_line] PropertyValue [[]]
+01:47:27:036422|0070-00001:PSH::VarName[adaptlog.maxsyncwait],VarValue[2000],Type[3],Desc[]
+01:47:27:036452|0080-00001:PSH::VarName[adaptlog.mindiskthroughput],VarValue[50000000],Type[3],Desc[]
+01:47:27:036476|0070-00001:PSH::VarName[applicationlogsthreadid],VarValue[1],Type[3],Desc[]
+01:47:27:036496|0060-00001:PSH::VarName[audit_enabled],VarValue[1],Type[3],Desc[]
+01:47:27:036515|0060-00001:PSH::VarName[audit_journal],VarValue[1],Type[3],Desc[]
+01:47:27:036532|0070-00001:PSH::VarName[audit_source],VarValue[AUDIT_SERVER],Type[3],Desc[]
+01:47:27:036557|0055-00001:PSH::VarName[calive],VarValue[240],Type[3],Desc[]
+01:47:27:036575|0070-00001:PSH::VarName[chain.contentsub.enable],VarValue[0],Type[3],Desc[]
+01:47:27:036594|0059-00001:PSH::VarName[cidletimeout],VarValue[5],Type[3],Desc[]
+01:47:27:036809|0061-00001:PSH::VarName[COMPONENT],VarValue[Avirat],Type[1],Desc[]
+01:47:27:036853|0075-00001:PSH::VarName[connection_failure_threshold],VarValue[5],Type[3],Desc[]
+01:47:27:036902|0066-00001:PSH::VarName[cpustat_threshold],VarValue[100],Type[3],Desc[]
+01:47:27:036923|0061-00001:PSH::VarName[CSHOST],VarValue[127.0.0.1],Type[1],Desc[]
+01:47:27:036942|0057-00001:PSH::VarName[CSPORT],VarValue[13000],Type[1],Desc[]
+01:47:27:037091|0056-00001:PSH::VarName[csretry],VarValue[300],Type[3],Desc[]
+01:47:27:037185|0055-00001:PSH::VarName[ctimeout],VarValue[5],Type[3],Desc[]
+01:47:27:037226|0079-00001:PSH::VarName[data_dictionary.initial_size],VarValue[15000],Type[3],Desc[]
+01:47:27:037260|0051-00001:PSH::VarName[DBDIR],VarValue[],Type[3],Desc[]
+01:47:27:037326|0055-00001:PSH::VarName[dblogerr],VarValue[0],Type[3],Desc[]
+01:47:27:037359|0065-00001:PSH::VarName[deadlock_detection],VarValue[1],Type[3],Desc[]
+01:47:27:037381|0068-00001:PSH::VarName[debug],VarValue[100],Type[3],Desc[Trace on files]
+01:47:27:037438|0090-00001:PSH::VarName[debug.eslib],VarValue[1],Type[3],Desc[Trace for ESLib queries on files]
+01:47:27:037500|0058-00001:PSH::VarName[debug.supply],VarValue[],Type[3],Desc[]
+01:47:27:037575|0058-00001:PSH::VarName[dinputscript],VarValue[],Type[3],Desc[]
+01:47:27:037600|0058-00001:PSH::VarName[dlocalscript],VarValue[],Type[3],Desc[]
+01:47:27:037620|0061-00001:PSH::VarName[drecorderextobj],VarValue[],Type[3],Desc[]
+01:47:27:037639|0061-00001:PSH::VarName[drecorderownobj],VarValue[],Type[3],Desc[]
+01:47:27:037681|0061-00001:PSH::VarName[drecorderscript],VarValue[],Type[3],Desc[]
+01:47:27:037716|0057-00001:PSH::VarName[dtblocking],VarValue[1],Type[3],Desc[]
+01:47:27:037754|0060-00001:PSH::VarName[dtblocksize],VarValue[256],Type[3],Desc[]
+01:47:27:037788|0060-00001:PSH::VarName[dtflowcontrol],VarValue[1],Type[3],Desc[]
+01:47:27:037809|0058-00001:PSH::VarName[dtflushtime],VarValue[2],Type[3],Desc[]
+01:47:27:037826|0057-00001:PSH::VarName[dtsyncsend],VarValue[0],Type[3],Desc[]
+01:47:27:037842|0063-00001:PSH::VarName[e2enative.enable],VarValue[1],Type[3],Desc[]
+01:47:27:037857|0055-00001:PSH::VarName[ENABLESSL],VarValue[],Type[3],Desc[]
+01:47:27:037872|0062-00001:PSH::VarName[ent_reqtimeout],VarValue[60],Type[3],Desc[]
+01:47:27:037886|0056-00001:PSH::VarName[ent_source],VarValue[],Type[3],Desc[]
+01:47:27:037900|0062-00001:PSH::VarName[filebuffer],VarValue[131072],Type[3],Desc[]
+01:47:27:037914|0067-00001:PSH::VarName[full_unicode_support],VarValue[1],Type[3],Desc[]
+01:47:27:037929|0056-00001:PSH::VarName[gctrace],VarValue[all],Type[3],Desc[]
+01:47:27:038057|0078-00001:PSH::VarName[ignore_daemon_object_collisions],VarValue[1],Type[3],Desc[]
+01:47:27:038082|0081-00001:PSH::VarName[ignore_like_type_object_collisions],VarValue[1],Type[3],Desc[]
+01:47:27:038102|0066-00001:PSH::VarName[keystore.client.path],VarValue[],Type[3],Desc[]
+01:47:27:038124|0066-00001:PSH::VarName[keystore.server.path],VarValue[],Type[3],Desc[]
+01:47:27:038140|0062-00001:PSH::VarName[keystores_path],VarValue[.\],Type[3],Desc[]
+01:47:27:038190|0053-00001:PSH::VarName[LISTEN],VarValue[0],Type[3],Desc[]
+01:47:27:038218|0060-00001:PSH::VarName[listenbacklog],VarValue[0],Type[3],Desc[]
+01:47:27:038239|0061-00001:PSH::VarName[logcustomstats],VarValue[1],Type[3],Desc[]
+01:47:27:038269|0059-00001:PSH::VarName[logformat],VarValue[utf8],Type[3],Desc[]
+01:47:27:038290|0056-00001:PSH::VarName[logsasync],VarValue[1],Type[3],Desc[]
+01:47:27:038307|0062-00001:PSH::VarName[logsasyncwait],VarValue[200],Type[3],Desc[]
+01:47:27:038326|0061-00001:PSH::VarName[logsbuffersize],VarValue[1],Type[3],Desc[]
+01:47:27:038358|0055-00001:PSH::VarName[logsdays],VarValue[2],Type[3],Desc[]
+01:47:27:038465|0053-00001:PSH::VarName[LOGSDIR],VarValue[],Type[3],Desc[]
+01:47:27:038491|0061-00001:PSH::VarName[logsflushtime],VarValue[-1],Type[3],Desc[]
+01:47:27:038511|0060-00001:PSH::VarName[logsoutput],VarValue[file],Type[3],Desc[]
+01:47:27:038528|0057-00001:PSH::VarName[maxdelay],VarValue[200],Type[3],Desc[]
+01:47:27:038545|0060-00001:PSH::VarName[maxlogsize],VarValue[1024],Type[3],Desc[]
+01:47:27:038560|0061-00001:PSH::VarName[maxqueuesize],VarValue[128],Type[3],Desc[]
+01:47:27:038591|0065-00001:PSH::VarName[memoryalert.amber],VarValue[45],Type[3],Desc[]
+01:47:27:038609|0063-00001:PSH::VarName[memoryalert.red],VarValue[50],Type[3],Desc[]
+01:47:27:038625|0058-00001:PSH::VarName[mindiskfree],VarValue[0],Type[3],Desc[]
+01:47:27:038641|0059-00001:PSH::VarName[MONITOR_PORT],VarValue[0],Type[3],Desc[]
+01:47:27:038659|0060-00001:PSH::VarName[MULTI_INSTANCE],VarValue[],Type[3],Desc[]
+01:47:27:038675|0058-00001:PSH::VarName[negtimeout],VarValue[16],Type[3],Desc[]
+01:47:27:038689|0077-00001:PSH::VarName[object_collisions_report_time],VarValue[60],Type[3],Desc[]
+01:47:27:038705|0067-00001:PSH::VarName[publishonlyrecordset],VarValue[0],Type[3],Desc[]
+01:47:27:038722|0061-00001:PSH::VarName[publish_exclude],VarValue[],Type[3],Desc[]
+01:47:27:038736|0072-00001:PSH::VarName[publish_exclude_originator],VarValue[],Type[3],Desc[]
+01:47:27:038751|0061-00001:PSH::VarName[publish_include],VarValue[],Type[3],Desc[]
+01:47:27:038764|0072-00001:PSH::VarName[publish_include_originator],VarValue[],Type[3],Desc[]
+01:47:27:038779|0058-00001:PSH::VarName[redirstderr],VarValue[1],Type[3],Desc[]
+01:47:27:038795|0076-00001:PSH::VarName[registerclientprotocolversion],VarValue[4],Type[3],Desc[]
+01:47:27:038810|0064-00001:PSH::VarName[resolve_hostnames],VarValue[0],Type[3],Desc[]
+01:47:27:038825|0055-00001:PSH::VarName[rtdelay],VarValue[60],Type[3],Desc[]
+01:47:27:038838|0061-00001:PSH::VarName[security_level],VarValue[0],Type[3],Desc[]
+01:47:27:038851|0052-00001:PSH::VarName[server],VarValue[],Type[3],Desc[]
+01:47:27:038867|0055-00001:PSH::VarName[statime],VarValue[60],Type[3],Desc[]
+01:47:27:038881|0058-00001:PSH::VarName[statime_sub],VarValue[1],Type[3],Desc[]
+01:47:27:038896|0059-00001:PSH::VarName[syscomponent],VarValue[0],Type[3],Desc[]
+01:47:27:038911|0061-00001:PSH::VarName[tcp_buffer],VarValue[65536],Type[3],Desc[]
+01:47:27:038925|0058-00001:PSH::VarName[tcp_nodelay],VarValue[1],Type[3],Desc[]
+01:47:27:038938|0063-00001:PSH::VarName[traces.broadcast],VarValue[1],Type[3],Desc[]
+01:47:27:038952|0081-00001:PSH::VarName[trace_dt],VarValue[10],Type[3],Desc[Data Transfer trace level]
+01:47:27:038969|0064-00001:PSH::VarName[ultra_low_latency],VarValue[0],Type[3],Desc[]
+01:47:27:038986|0082-00001:PSH::VarName[ultra_low_latency.driver_timeout],VarValue[5000],Type[3],Desc[]
+01:47:27:039004|0055-00001:PSH::VarName[usemsecs],VarValue[1],Type[3],Desc[]
+01:47:27:039019|0053-00001:PSH::VarName[USER],VarValue[mkv],Type[1],Desc[]
+01:47:27:039032|0059-00001:PSH::VarName[userecordset],VarValue[0],Type[3],Desc[]
+01:47:27:039047|0063-00001:PSH::VarName[winnative.enable],VarValue[1],Type[3],Desc[]
+01:47:27:039064|0049-00001:PSH::VarName[www],VarValue[],Type[3],Desc[]
+01:47:27:039079|0054-00001:PSH::VarName[wwwport],VarValue[0],Type[3],Desc[]
+01:47:27:043125|0062-00001:PSH::VarName[eslib.pool_size],VarValue[4],Type[3],Desc[]
+01:47:27:043239|0069-00001:PSH::VarName[eslib.high_load_factor],VarValue[2],Type[3],Desc[]
+01:47:27:043738|0068-00001:PSH::VarName[eslib.low_load_factor],VarValue[1],Type[3],Desc[]
+01:47:27:043827|0065-00001:PSH::VarName[eslib.custom_stats],VarValue[0],Type[3],Desc[]
+01:47:27:045109|0065-00001:PSH::VarName[tickdata.precision],VarValue[0],Type[3],Desc[]
+01:47:27:045220|0060-00001:PSH::VarName[stack_on_stop],VarValue[0],Type[3],Desc[]
+01:47:27:052938|1085-00051:Pinfo Component {Avirat} Type {PUB} APIVersion {1.6.8-p8d7} ApplVersion {0.0.1} SysUtilsKind {win} NanoTimeKind {generic} FReq {60} PID {32148} MemSize {17462} MemPct {0.21} JVMVersion {23.0.2,Java HotSpot(TM) 64-Bit Server VM} JVMTotalMemory {516096} JVMFreeMemory {498551} JVMMaxTotalMemory {8249344} CPUTime {00:00:02:562} CPUAvg {361.25} CPUPeak {361.25} CPUPeakTime {00:00:00:000} Pub {0} PubLoc {0} SubRec {0} SubRecLoc {0} SubField {0} SubFieldLoc {0} SupRec {0} SupRecLoc {0} SupField {0} SupFieldLoc {0} UpdRec {0} UpdRecLoc {0} UpdField {0} UpdFieldLoc {0} UpdRecSub {0} MsgRecSnpRecv {0} MsgFieldSnpRecv {0} MsgRecSnpSent {0} MsgFieldSnpSent {0} MsgRecRecv {0} MsgFieldRecv {0} MsgRecSent {0} MsgFieldSent {0} pUpdRec {0} pUpdRecLoc {0} pUpdField {0} pUpdFieldLoc {0} pUpdRecSub {0} pMsgRecSnpRecv {0} pMsgFieldSnpRecv {0} pMsgRecSnpSent {0} pMsgFieldSnpSent {0} pMsgRecRecv {0} pMsgFieldRecv {0} pMsgRecSent {0} pMsgFieldSent {0} WLogBytes {0} AvgIOTPut {0} SyncLogWaitMsecs {0} SyncLogThreadsSus {0} LostLogTraces {0} ClientID {-1} PlatformID {-1} UTCOffset {+05:30}
+01:47:27:053194|0066-00001:ESLib: Starting ESLib on EntSource {} with QueryTimeout {60}
+01:47:27:053217|0123-00051:PSH::HWINFO arch {amd64} numproc {22} mem {32985808K} os {Windows 11} osversion {10.0} timezone {India Standard Time}
+01:47:27:073817|0022-00001:PSH::EVENT START
+01:47:27:079309|0043-00001:MkvRuntime registered to MemoryMXBean
+01:47:27:081051|0083-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Eden Space} Threshold {1}
+01:47:27:081103|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Eden Space} CollectionUsageCount {0} Committed {20480} Init {24576} Max {0} Used {0}
+01:47:27:081120|0080-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Old Gen} Threshold {1}
+01:47:27:081130|0129-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Old Gen} CollectionUsageCount {0} Committed {0} Init {491520} Max {8249344} Used {0}
+01:47:27:081140|0087-00001:MkvRuntime::CollectionUsageThreshold MemoryPool {G1 Survivor Space} Threshold {1}
+01:47:27:081151|0131-00001:MkvRuntime::MemoryUsage MemoryPool {G1 Survivor Space} CollectionUsageCount {0} Committed {4096} Init {0} Max {0} Used {4096}
+01:47:27:085919|0410-00001:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {1} CollectionTime {8} StartTime {853} Duration {9} MemoryPool {G1 Eden Space} Committed {24576 20480} Init {24576 24576} Max {0 0} Used {24576 0} MemoryPool {G1 Survivor Space} Committed {0 4096} Init {0 0} Max {0 0} Used {0 4096} MemoryPool {G1 Old Gen} Committed {491520 491520} Init {491520 491520} Max {8249344 8249344} Used {8192 4437}
+01:47:27:085989|0088-00001:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {0} CollectionTime {0}
+01:47:27:086019|0089-00001:MkvRuntime::GCInfoExt GC {G1 Old Generation} CollectionCount {0} CollectionTime {0}
+01:47:27:086325|0068-00001:##############################################################
+01:47:27:086559|0061-00001:  Simple ION 2.0 Bond Price Application Server Starting
+01:47:27:086719|0029-00001:  Application v0.0.1 na
+01:47:27:086755|0068-00001:##############################################################
+01:47:27:441758|0419-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {2} CollectionTime {15} StartTime {1535} Duration {7} MemoryPool {G1 Eden Space} Committed {20480 45056} Init {24576 24576} Max {0 0} Used {20480 0} MemoryPool {G1 Survivor Space} Committed {4096 4096} Init {0 0} Max {0 0} Used {4096 4096} MemoryPool {G1 Old Gen} Committed {491520 466944} Init {491520 491520} Max {8249344 8249344} Used {4437 11487}
+01:47:28:088705|0061-00001:PSH::VarName[log_threadname],VarValue[0],Type[3],Desc[]
+01:47:28:088818|0060-00001:PSH::VarName[log_name],VarValue[Avirat],Type[3],Desc[]
+01:47:28:089267|0061-00001:PSH::VarName[log_threshold],VarValue[10],Type[3],Desc[]
+01:47:28:261733|0420-00027:MkvRuntime::GCInfoExt GC {G1 Young Generation} CollectionCount {3} CollectionTime {21} StartTime {2357} Duration {5} MemoryPool {G1 Eden Space} Committed {45056 57344} Init {24576 24576} Max {0 0} Used {36864 0} MemoryPool {G1 Survivor Space} Committed {4096 8192} Init {0 0} Max {0 0} Used {4096 8192} MemoryPool {G1 Old Gen} Committed {466944 450560} Init {491520 491520} Max {8249344 8249344} Used {11487 13493}
+01:47:28:270244|0229-00027:MkvRuntime::GCInfoExt GC {G1 Concurrent GC} CollectionCount {1} CollectionTime {2} StartTime {2370} Duration {2} MemoryPool {G1 Old Gen} Committed {450560 16384} Init {491520 491520} Max {8249344 8249344} Used {13493 13493}
+01:47:28:295550|0065-00001:PSH::VarName[source],VarValue[Avirat_Source],Type[1],Desc[]
+01:47:28:295668|0062-00001:PSH::VarName[insight.enabled],VarValue[1],Type[3],Desc[]
+01:47:28:296070|0069-00001:PSH::VarName[resource_probe.enabled],VarValue[1],Type[3],Desc[]
+01:47:28:296747|0074-00001:PSH::VarName[insight.file_export.enabled],VarValue[1],Type[3],Desc[]
+01:47:28:296809|0081-00001:PSH::VarName[executor.monitoring.poll_interval],VarValue[60],Type[3],Desc[]
+01:47:28:296910|0092-00001:PSH::VarName[executor.monitoring.show_locked_synchronizers],VarValue[0],Type[3],Desc[]
+01:47:28:297002|0075-00001:PSH::VarName[insight.metric_set.black_list],VarValue[],Type[3],Desc[]
+01:47:28:297072|0083-00001:PSH::VarName[executor.monitoring.dump_interval],VarValue[3600],Type[3],Desc[]
+01:47:28:297575|0071-00001:PSH::VarName[executor.core.pool_size],VarValue[-1],Type[3],Desc[]
+01:47:28:297693|0076-00001:PSH::VarName[executor.core.keepalive_time],VarValue[-1],Type[3],Desc[]
+01:47:28:297724|0085-00001:PSH::VarName[readiness.cluster_notification.enabled],VarValue[1],Type[3],Desc[]
+01:47:28:297753|0064-00001:PSH::VarName[readiness.enabled],VarValue[1],Type[3],Desc[]
+01:47:28:297785|0075-00001:PSH::VarName[executor.core.max_pool_size],VarValue[-1],Type[3],Desc[]
+01:47:28:297809|0074-00001:PSH::VarName[executor.monitoring.enabled],VarValue[1],Type[3],Desc[]
+01:47:28:297834|0083-00001:PSH::VarName[application_server.plugins_dir],VarValue[plugins],Type[3],Desc[]
+01:47:28:297920|0086-00001:PSH::VarName[executor.monitoring.warning_threshold],VarValue[120],Type[3],Desc[]
+01:47:28:298012|0080-00001:PSH::VarName[insight.prometheus.exporter.port],VarValue[-1],Type[3],Desc[]
+01:47:28:298046|0057-00001:PSH::VarName[currency],VarValue[ALL],Type[3],Desc[]
+01:47:28:298734|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:47:28:340960|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51818::kubernetes.docker.internal:13000 [Owner true] ===========
+01:47:28:347213|0101-00069:PSH::Conn[/127.0.0.1:51818::kubernetes.docker.internal:13000] Daemon, native SSL handshake=true
+01:47:28:406547|0176-00069:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:47:28:448103|0087-00069:PSH::Conn[/127.0.0.1:51818::kubernetes.docker.internal:13000] SSL Handshake start
+01:47:28:479233|0521-00069:PSH::Conn[/127.0.0.1:51818::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+java.io.EOFException: Read failure on socket channel.
+	at com.iontrading.utils.ak.a(SSLHelpers.java:406)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:372)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:47:28:480123|0120-00069:PSH::Conn[/127.0.0.1:51818::kubernetes.docker.internal:13000] Daemon, switching to ION standard handshake with SSL
+01:47:28:481344|1397-00069:PSH::ERROR Conn[/127.0.0.1:51818::kubernetes.docker.internal:13000] Negotiation problem: An established connection was aborted by the software in your host machine
+java.io.IOException: An established connection was aborted by the software in your host machine
+	at java.base/sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:341)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:295)
+	at java.base/sun.nio.ch.IOUtil.read(IOUtil.java:270)
+	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:426)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
+	at com.iontrading.proactor.e.b(ASocketChannelInputStream.java:166)
+	at com.iontrading.proactor.e.d(ASocketChannelInputStream.java:219)
+	at com.iontrading.proactor.e.read(ASocketChannelInputStream.java:259)
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208)
+	at com.iontrading.OSP.d.a(OspInputStream.java:31)
+	at com.iontrading.OSP.packets.b.a(Header.java:23)
+	at com.iontrading.OSP.d.a(OspInputStream.java:106)
+	at com.iontrading.OSP.f$a.b(OspStream.java:170)
+	at com.iontrading.OSP.f.a(OspStream.java:280)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:47:28:482052|0027-00069:OPS handshake failed!
+01:47:33:304960|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:47:33:344138|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51822::kubernetes.docker.internal:13000 [Owner true] ===========
+01:47:33:349814|0102-00071:PSH::Conn[/127.0.0.1:51822::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:47:33:355371|0176-00071:PSH::Conn No SSL certificate provided in: C:\Users\avirat.sharma\OneDrive - ION\Desktop\Work\LDP-Practice\LDP_Onboarding_Assignment\COOL_Onboarding_Activity\.\ion.cln.jks
+01:47:33:356466|0087-00071:PSH::Conn[/127.0.0.1:51822::kubernetes.docker.internal:13000] SSL Handshake start
+01:47:33:371237|1354-00071:PSH::Conn[/127.0.0.1:51822::kubernetes.docker.internal:13000] Daemon, failure on SSL handshake
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:47:33:371653|0140-00071:PSH::Conn[/127.0.0.1:51822::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:47:33:371758|0140-00071:PSH::Conn[/127.0.0.1:51822::kubernetes.docker.internal:13000] Daemon doesn't support requested protocol level, defaulting to unsecure.
+01:47:33:371768|1408-00071:PSH::ERROR Conn[/127.0.0.1:51822::kubernetes.docker.internal:13000] Negotiation problem: (handshake_failure) Received fatal alert: handshake_failure
+javax.net.ssl.SSLHandshakeException: (handshake_failure) Received fatal alert: handshake_failure
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:130)
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:117)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:370)
+	at java.base/sun.security.ssl.Alert$AlertConsumer.consume(Alert.java:287)
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:209)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172)
+	at java.base/sun.security.ssl.SSLEngineImpl.decode(SSLEngineImpl.java:736)
+	at java.base/sun.security.ssl.SSLEngineImpl.readRecord(SSLEngineImpl.java:691)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:506)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(SSLEngineImpl.java:482)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(SSLEngine.java:679)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:368)
+	at com.iontrading.utils.ak.a(SSLHelpers.java:290)
+	at com.iontrading.OSP.f.a(OspStream.java:380)
+	at com.iontrading.OSP.f.a(OspStream.java:276)
+	at com.iontrading.mkv.al$a.run(MkvConnection.java:2484)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+01:47:33:372418|0027-00071:OPS handshake failed!
+01:47:38:308914|0050-00050:Try connect to host {127.0.0.1} port {13000}
+01:47:38:326353|0113-00049:PSH::=========== STARTING on CS@/127.0.0.1:51834::kubernetes.docker.internal:13000 [Owner true] ===========
+01:47:38:330444|0102-00073:PSH::Conn[/127.0.0.1:51834::kubernetes.docker.internal:13000] Daemon, native SSL handshake=false
+01:47:38:337049|0097-00073:PSH::Conn[/127.0.0.1:51834::kubernetes.docker.internal:13000] Setting max block size: 32768
+01:47:38:343833|0098-00073:PSH::Conn[/127.0.0.1:51834::kubernetes.docker.internal:13000] Setting up alive timer: 120000
+01:47:38:356607|0085-00073:PSH::Register  IN  [SUCCESS] Protocol {1} CipherSuite {none} {Avirat} <--> {CS}
+01:47:38:357815|0025-00073:PSH::EVENT REGISTER
+01:47:38:374151|0102-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPPROFILE
+01:47:38:376693|0096-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_GROUPS
+01:47:38:376926|0104-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PLATFORM_USERS
+01:47:38:377033|0098-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_PROFILES
+01:47:38:377114|0099-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERGROUP
+01:47:38:377193|0101-00073:PSH::UserGroupProfile: Starting subscriptions of Daemon reference data chain: SYS_C_USERPROFILE
+01:47:38:387563|0063-00073:PSH::EVENT COMPONENT: [$(Avirat)_$(Machine)],[REGISTERED]
+01:47:38:387833|0052-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[REGISTERED]
+01:47:38:387970|0049-00073:PSH::EVENT COMPONENT: [Avirat],[REGISTERED]
+01:47:38:388042|0053-00073:PSH::EVENT COMPONENT: [ROUTER_CF1],[REGISTERED]
+01:47:38:388114|0045-00073:PSH::EVENT COMPONENT: [da],[REGISTERED]
+01:47:38:388186|0045-00073:PSH::EVENT COMPONENT: [dh],[REGISTERED]
+01:47:42:706619|0031-00073:PSH::Setting USEMSECS {1}
+01:47:42:707090|0031-00073:PSH::Setting statime {60}
+01:47:44:710351|0061-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERGROUP
+01:47:44:710438|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:44:711285|0060-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PROFILES
+01:47:44:711310|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:44:711330|0063-00073:PSH::UserGroupProfile: Chain completed: SYS_C_USERPROFILE
+01:47:44:711335|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:44:711348|0064-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPPROFILE
+01:47:44:711352|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:44:711364|0066-00073:PSH::UserGroupProfile: Chain completed: SYS_C_PLATFORM_USERS
+01:47:44:711368|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:44:714135|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:714849|0062-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_COMPONENTS} Id {1}
+01:47:44:715071|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:715088|0061-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_PROCESSES} Id {2}
+01:47:44:715145|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:715155|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICES} Id {5}
+01:47:44:715207|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:715217|0063-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SERVICEVIEW} Id {7}
+01:47:44:715270|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:715280|0058-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_SYSTEM} Id {3}
+01:47:44:715331|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:715342|0057-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERS} Id {4}
+01:47:44:715397|0059-00073:PSH::UserGroupProfile: Download started: SYS_C_GROUPS
+01:47:44:715409|0060-00073:PSH::UserGroupProfile: SYS_C_GROUPS {_USERVIEW} Id {6}
+01:47:44:715421|0058-00073:PSH::UserGroupProfile: Chain completed: SYS_C_GROUPS
+01:47:44:715439|0077-00073:PSH::UserGroupProfile: Notifying all chain downloaded for REGISTER_IDLE
+01:47:44:715595|0030-00073:PSH::EVENT REGISTER_IDLE
+01:47:44:715908|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:44:715961|0054-00073:ESLib: Trying subscription of ES Chain, Source: 
+01:47:44:717550|0068-00073:PSH::UserGroupProfile: Processing pending data for SYS_C_USERS
+01:47:45:202904|0068-00076:##############################################################
+01:47:45:202915|0020-00076:  FATAL ERROR!
+01:47:45:203317|0262-00076:  Message {java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}}
+01:47:45:203324|0068-00076:##############################################################
+01:47:45:203336|2589-00076:Stacktrace:
+com.iontrading.isf.boot.spi.a: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:47)
+	at com.iontrading.isf.boot.impl.b.start(BootServices.java:75)
+	at com.iontrading.isf.applicationserver.impl.d.a(ISFAppBuilder.java:40)
+	at com.iontrading.isf.applicationserver.impl.ISFBootstrap$1.a(ISFBootstrap.java:141)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+Caused by: java.lang.IllegalArgumentException: Unknown parameter type / Method {com.activity.bondprice.TalkInterface.sendBonds} Index {0} Type {com.activity.bondprice.EnhancedBondPriceBean} Generic Type {class com.activity.bondprice.EnhancedBondPriceBean}
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:263)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:184)
+	at com.iontrading.talk.metadata.factory.f.b(MethodMetadataFactoryImpl.java:124)
+	at com.iontrading.talk.metadata.factory.f.createMetadata(MethodMetadataFactoryImpl.java:74)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.metadata.a.a(JmixFunctionMetadataFactory.java:58)
+	at com.iontrading.talk.ionbus.metadata.a.createMetadata(JmixFunctionMetadataFactory.java:39)
+	at com.iontrading.isf.metadata.impl.c.createMetadata(MetadataFactoryWrapper.java:56)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.a(MetadataRegistryImpl.java:205)
+	at com.iontrading.isf.metadata.impl.MetadataRegistryImpl.getMetadata(MetadataRegistryImpl.java:178)
+	at com.iontrading.talk.ionbus.functions.impl.b$1.a(ExporterImpl.java:172)
+	at com.iontrading.talk.ionbus.functions.impl.h.a(JmixServiceWrapper.java:58)
+	at com.iontrading.talk.ionbus.functions.impl.b.a(ExporterImpl.java:214)
+	at com.iontrading.talk.ionbus.functions.impl.b.exportFunctions(ExporterImpl.java:155)
+	at com.iontrading.talk.ionbus.functions.impl.b.start(ExporterImpl.java:240)
+	at com.iontrading.isf.boot.impl.a.start(BootServiceWrapper.java:65)
+	at com.iontrading.isf.boot.impl.ServicesContainerImpl.startService(ServicesContainerImpl.java:42)
+	... 4 more
+
+01:47:45:503628|0054-00073:PSH::EVENT COMPONENT: [AUTOCONFX],[UNREGISTERED]
+01:47:55:206938|0021-00080:PSH::EVENT STOP
+01:47:55:213558|0134-00080:ESLib: Namespace Add: Namespace: KafkaService, Enabled: true, FlatRules: false, ProfileAware: false, ExtSource: null, Active: -1

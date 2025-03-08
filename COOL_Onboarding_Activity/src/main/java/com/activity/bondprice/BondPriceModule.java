@@ -1,7 +1,5 @@
 package com.activity.bondprice;
 
-import com.activity.fcall.TalkFunction;
-import com.activity.fcall.TalkInterface;
 import com.google.inject.AbstractModule;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;

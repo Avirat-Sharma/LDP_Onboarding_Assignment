@@ -1,4 +1,4 @@
-package com.activity.fcall;
+package com.activity.bondprice;
 
 public class EnhancedBondPriceBean {
     public static int id=0;

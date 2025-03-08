@@ -1,4 +1,4 @@
-package com.activity.fcall;
+package com.activity.bondprice;
 
 import com.iontrading.talk.api.annotation.Identifier;
 import com.iontrading.talk.api.annotation.TalkProperty;
