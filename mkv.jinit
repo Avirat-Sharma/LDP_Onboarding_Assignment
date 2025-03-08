@@ -1,0 +1,6 @@
+mkv.cshost=127.0.0.1
+mkv.csport=13000
+mkv.user=mkv
+mkv.pwd=mkvpwd
+mkv.component=Avirat
+mkv.source=Avirat_Source
