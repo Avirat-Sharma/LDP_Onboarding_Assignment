@@ -6,12 +6,10 @@ public class EnhancedBondPriceBean {
 
     public String bondName;
     public String price;
-    public String enhancedPrice;
 
-    EnhancedBondPriceBean(String bondName, String price, String enhancedPrice) {
+    EnhancedBondPriceBean(String bondName, String price) {
         this.bondName=bondName;
         this.price=price;
-        this.enhancedPrice=enhancedPrice;
     }
 
     public String getClassName(){

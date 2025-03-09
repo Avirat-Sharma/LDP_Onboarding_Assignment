@@ -7,10 +7,9 @@ import com.iontrading.talk.ionbus.spi.IonBusInfo;
 
 
 public interface TalkInterface {
-    @TalkFunction(name="SendBeansToPlatform")
+    @TalkFunction(name="SendBeanToPlatform")
     AsyncResult<String> sendBonds(
             @TalkParam(name="EnhancedBond") EnhancedBondPriceBean enhancedBond,
-            @TalkParam(name="OriginalBond") BondPriceBean originalBond,
             IonBusInfo busInfo
     );
 }

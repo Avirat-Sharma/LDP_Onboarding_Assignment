@@ -9,11 +9,11 @@ public class MyTalkType {
     private final String className="MyTalkType";
 
     @TalkProperty(name="EnhancedBond") public EnhancedBondPriceBean enhancedBond;
-    @TalkProperty(name="OriginalBond") public BondPriceBean originalBond;
+//    @TalkProperty(name="OriginalBond") public BondPriceBean originalBond;
 
-    MyTalkType(EnhancedBondPriceBean enhancedBond, BondPriceBean originalBond){
+    MyTalkType(EnhancedBondPriceBean enhancedBond){
         this.enhancedBond=enhancedBond;
-        this.originalBond=originalBond;
+//        this.originalBond=originalBond;
     }
     @TalkProperty(name="ClassName")
     public String getClassName() {
