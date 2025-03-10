@@ -24,6 +24,7 @@ public class EnhancedBondPriceConsumer {
     }
 
     public ArrayList<EnhancedBondPriceBean> getEnhancedBeans(){
+        System.out.println("Starting the consumer");
         ArrayList<EnhancedBondPriceBean> enhancedBonds = new ArrayList<EnhancedBondPriceBean>();
 
         try {

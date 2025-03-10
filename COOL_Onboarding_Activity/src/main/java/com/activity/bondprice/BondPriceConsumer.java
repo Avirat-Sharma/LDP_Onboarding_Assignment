@@ -25,6 +25,7 @@ public class BondPriceConsumer {
     }
 
     public void consume(BondPriceProcessor processor) {
+        System.out.println("Starting the consumer");
         try {
             while (true) {
                 ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));

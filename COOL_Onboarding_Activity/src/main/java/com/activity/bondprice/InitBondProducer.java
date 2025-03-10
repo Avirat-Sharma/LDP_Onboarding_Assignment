@@ -22,6 +22,7 @@ public class InitBondProducer{
 
     public void produce() {
         try {
+            System.out.println("Starting InitProd");
             // Ensure price is a number (not a string)
             String usBondPrice = objectMapper.writeValueAsString(Map.of("bond", "US1025", "price", 150.0));
             String inBondPrice = objectMapper.writeValueAsString(Map.of("bond", "IN4096", "price", 100.0));

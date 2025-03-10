@@ -12,10 +12,12 @@ public class TalkFunction implements TalkInterface{
     @Inject
     private Publisher publisher;
     @Override
-    public AsyncResult<String> sendBonds(EnhancedBondPriceBean enhancedBond,IonBusInfo busInfo){
+    public AsyncResult<String> sendBonds(String bondName,String bondPrice,IonBusInfo busInfo){
         AsyncResultPromise<String> result= AsyncResults.create();
         // will implement
-        publisher.publish(new MyTalkType(enhancedBond));
+
+        publisher.publish(new MyTalkType("1","100"));
+//        System.out.println("Bond ID Received: "+enhancedBond.bondName);
         if(result.isDone()){
             result.success("Success");
         }

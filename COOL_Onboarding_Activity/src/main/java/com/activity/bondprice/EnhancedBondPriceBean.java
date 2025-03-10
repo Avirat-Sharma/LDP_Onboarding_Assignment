@@ -1,5 +1,8 @@
 package com.activity.bondprice;
 
+import com.iontrading.talk.api.annotation.TalkType;
+
+
 public class EnhancedBondPriceBean {
     public static int id=0;
     private final String className="EnhancedBondPriceBean";

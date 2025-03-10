@@ -22,11 +22,12 @@ public class BondPriceModule extends AbstractModule{
 //      BootModule.registerBootService(binder(), KafkaBondPriceService.class, IBootService.RunPhase.RUNNING);
         System.out.println("KafkaService Boot Registered");
         //activating services
+        BootModule.registerBootService(binder(), KafkaBondPriceService.class, IBootService.RunPhase.RUNNING);
         ServiceManagerModule.addService(binder(),"KafkaService");
         System.out.println("KafkaService Service Added In BondPriceModule");
 
-//        bind(TalkInterface.class).to(TalkFunction.class).in(Singleton.class);
-//        TalkModule.exportFunctions(binder(), TalkInterface.class);
+        bind(TalkInterface.class).to(TalkFunction.class).in(Singleton.class);
+        TalkModule.exportFunctions(binder(), TalkInterface.class);
 
     }
 

@@ -4,6 +4,7 @@ import com.iontrading.isf.boot.spi.IService;
 import com.iontrading.isf.commons.callback.Callback;
 import com.iontrading.isf.service_manager.spi.IBusServiceManager;
 import com.iontrading.talk.api.Publisher;
+import com.iontrading.talk.functions.spi.Exporter;
 import com.iontrading.talk.ionbus.spi.IonBusInfo;
 import jakarta.inject.Inject;
 import com.iontrading.talk.functions.spi.Importer;
@@ -23,7 +24,6 @@ public class KafkaBondPriceService implements IService {
     @Inject
     IBusServiceManager serviceManager;
     @Inject
-    private Importer importer;
     private TalkInterface remoteFunction;
     private static final Logger logger = LoggerFactory.getLogger(KafkaBondPriceService.class);
 
@@ -33,45 +33,63 @@ public class KafkaBondPriceService implements IService {
 
     public void start() throws Exception {
         // Import the remote TalkFunction implementation
-        this.remoteFunction = importer.importFunctions(TalkInterface.class);
 
-        serviceManager.addService("KafkaService", "", "");
+//        serviceManager.addService("KafkaService", "", "");
         serviceManager.activateService("KafkaService");
         System.out.println("Individual Kafka Service started");
 
         // Initialize components
-        InitBondProducer initProd = new InitBondProducer();
-        BondPriceProcessor processor = new BondPriceProcessor();
-        BondPriceProducer producer = new BondPriceProducer();
-        BondPriceConsumer consumer = new BondPriceConsumer(producer);
-        EnhancedBondPriceConsumer enhancedConsumer = new EnhancedBondPriceConsumer();
+//        InitBondProducer initProd = new InitBondProducer();
+//        BondPriceProcessor processor = new BondPriceProcessor();
+//        BondPriceProducer producer = new BondPriceProducer();
+//        BondPriceConsumer consumer = new BondPriceConsumer(producer);
+//        EnhancedBondPriceConsumer enhancedConsumer = new EnhancedBondPriceConsumer();
 
         // Produce initial bond prices
-        initProd.produce();
-        consumer.consume(processor);
+//       initProd.produce();
+//        consumer.consume(processor);
 
-        // Get the enhanced bonds to be sent
-        ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
+//        ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
 
         System.out.println("Publishing Data To ION Bus");
 
         // Iterate over each enhanced bond and send using TalkFunction
-        for (EnhancedBondPriceBean enhancedBond : enhancedBonds) {
-            IonBusInfo busInfo = new IonBusInfo();  // Ensure this is properly initialized
-            remoteFunction.sendBonds(enhancedBond, busInfo)
-                    .addCallback(new Callback<String>() {
-                        @Override
-                        public void onSuccess(String result) {
-                            logger.info("Successfully sent bond data: " + result);
-                        }
+        remoteFunction.sendBonds("US101","100", new IonBusInfo())
+                .addCallback(new Callback<String>() {
+                    @Override
+                    public void onSuccess(String result) {
+                        logger.info("Successfully sent bond data: " + result);
+                    }
 
-                        @Override
-                        public void onFailure(Throwable exception) {
-                            logger.error("Failed to send bond data", exception);
-                            recoveryMeasure(exception);
-                        }
-                    });
-        }
+                    @Override
+                    public void onFailure(Throwable exception) {
+                        logger.error("Failed to send bond data", exception);
+                        recoveryMeasure(exception);
+                    }
+                });
+
+        // Get the enhanced bonds to be sent
+//        ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
+//
+//        System.out.println("Publishing Data To ION Bus");
+//
+//        // Iterate over each enhanced bond and send using TalkFunction
+//        for (EnhancedBondPriceBean enhancedBond : enhancedBonds) {
+//            IonBusInfo busInfo = new IonBusInfo();  // Ensure this is properly initialized
+//            remoteFunction.sendBonds(enhancedBond, busInfo)
+//                    .addCallback(new Callback<String>() {
+//                        @Override
+//                        public void onSuccess(String result) {
+//                            logger.info("Successfully sent bond data: " + result);
+//                        }
+//
+//                        @Override
+//                        public void onFailure(Throwable exception) {
+//                            logger.error("Failed to send bond data", exception);
+//                            recoveryMeasure(exception);
+//                        }
+//                    });
+//        }
         System.out.println("Success In Publishing Data");
     }
 
