@@ -39,57 +39,58 @@ public class KafkaBondPriceService implements IService {
         System.out.println("Individual Kafka Service started");
 
         // Initialize components
-//        InitBondProducer initProd = new InitBondProducer();
-//        BondPriceProcessor processor = new BondPriceProcessor();
-//        BondPriceProducer producer = new BondPriceProducer();
-//        BondPriceConsumer consumer = new BondPriceConsumer(producer);
-//        EnhancedBondPriceConsumer enhancedConsumer = new EnhancedBondPriceConsumer();
+        InitBondProducer initProd = new InitBondProducer();
+        BondPriceProcessor processor = new BondPriceProcessor();
+        BondPriceProducer producer = new BondPriceProducer();
+        BondPriceConsumer consumer = new BondPriceConsumer(producer);
+        EnhancedBondPriceConsumer enhancedConsumer = new EnhancedBondPriceConsumer();
 
-        // Produce initial bond prices
-//       initProd.produce();
-//        consumer.consume(processor);
+         // Produce initial bond prices
+        initProd.produce();
+        // consume and send enhanced bond
+        consumer.consume(processor);
 
 //        ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
+
+//        System.out.println("Publishing Data To ION Bus");
+
+        // Iterate over each enhanced bond and send using TalkFunction
+//        remoteFunction.sendBonds("US101","100", new IonBusInfo())
+//                .addCallback(new Callback<String>() {
+//                    @Override
+//                    public void onSuccess(String result) {
+//                        logger.info("Successfully sent bond data: " + result);
+//                    }
+//
+//                    @Override
+//                    public void onFailure(Throwable exception) {
+//                        logger.error("Failed to send bond data", exception);
+//                        recoveryMeasure(exception);
+//                    }
+//                });
+
+        // Get the enhanced bonds to be sent
+        ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
 
         System.out.println("Publishing Data To ION Bus");
 
         // Iterate over each enhanced bond and send using TalkFunction
-        remoteFunction.sendBonds("US101","100", new IonBusInfo())
-                .addCallback(new Callback<String>() {
-                    @Override
-                    public void onSuccess(String result) {
-                        logger.info("Successfully sent bond data: " + result);
-                    }
+        for (EnhancedBondPriceBean enhancedBond : enhancedBonds) {
+            IonBusInfo busInfo = new IonBusInfo();  // Ensure this is properly initialized
+            remoteFunction.sendBonds(enhancedBond.bondName,enhancedBond.originalPrice,enhancedBond.enhancedPrice ,busInfo)
+                    .addCallback(new Callback<String>() {
+                        @Override
+                        public void onSuccess(String result) {
+                            logger.info("Successfully sent bond data: " + result);
+                        }
 
-                    @Override
-                    public void onFailure(Throwable exception) {
-                        logger.error("Failed to send bond data", exception);
-                        recoveryMeasure(exception);
-                    }
-                });
-
-        // Get the enhanced bonds to be sent
-//        ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
-//
-//        System.out.println("Publishing Data To ION Bus");
-//
-//        // Iterate over each enhanced bond and send using TalkFunction
-//        for (EnhancedBondPriceBean enhancedBond : enhancedBonds) {
-//            IonBusInfo busInfo = new IonBusInfo();  // Ensure this is properly initialized
-//            remoteFunction.sendBonds(enhancedBond, busInfo)
-//                    .addCallback(new Callback<String>() {
-//                        @Override
-//                        public void onSuccess(String result) {
-//                            logger.info("Successfully sent bond data: " + result);
-//                        }
-//
-//                        @Override
-//                        public void onFailure(Throwable exception) {
-//                            logger.error("Failed to send bond data", exception);
-//                            recoveryMeasure(exception);
-//                        }
-//                    });
-//        }
+                        @Override
+                        public void onFailure(Throwable exception) {
+                            logger.error("Failed to send bond data", exception);
+                            recoveryMeasure(exception);
+                        }
+                    });
+        }
         System.out.println("Success In Publishing Data");
     }
 

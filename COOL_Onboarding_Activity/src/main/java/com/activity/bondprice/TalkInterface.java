@@ -10,7 +10,8 @@ public interface TalkInterface {
     @TalkFunction(name="SendBeanToPlatform")
     AsyncResult<String> sendBonds(
             @TalkParam(name="BondName") String bondName,
-            @TalkParam(name="BondPrice") String bondPrice,
+            @TalkParam(name="OriginalBondPrice") String originalBondPrice,
+            @TalkParam(name="EnhancedBondPrice") String enhancedBondPrice,
             IonBusInfo busInfo
     );
 }

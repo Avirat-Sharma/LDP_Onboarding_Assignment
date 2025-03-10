@@ -27,7 +27,7 @@ public class BondPriceConsumer {
     public void consume(BondPriceProcessor processor) {
         System.out.println("Starting the consumer");
         try {
-            while (true) {
+//            while (true) {
                 ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
                 for (ConsumerRecord<String, String> record : records) {
                     try {
@@ -51,7 +51,7 @@ public class BondPriceConsumer {
                         producer.send(record.key(), record.value());
                     }
                 }
-            }
+//            }
         } catch (Exception e) {
             logger.error("Consumer encountered an error", e);
         } finally {

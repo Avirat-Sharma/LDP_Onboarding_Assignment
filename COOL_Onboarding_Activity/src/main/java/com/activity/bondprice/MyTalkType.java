@@ -9,8 +9,12 @@ public class MyTalkType {
     private final String className="MyTalkType";
 
 //    @TalkProperty(name="EnhancedBond") public EnhancedBondPriceBean enhancedBond;
+    @TalkProperty
     private String bondid;
-    private String price;
+    @TalkProperty
+    private String enhancedPrice;
+    @TalkProperty
+    private String originalPrice;
 //    @TalkProperty(name="OriginalBond") public BondPriceBean originalBond;
 
 //    MyTalkType(EnhancedBondPriceBean enhancedBond){
@@ -19,32 +23,44 @@ public class MyTalkType {
 //    }
 
 
-    public MyTalkType(String bondid, String price) {
+    public MyTalkType(String bondid, String originalPrice, String enhancedPrice) {
         this.bondid = bondid;
-        this.price = price;
+        this.enhancedPrice = enhancedPrice;
+        this.originalPrice = originalPrice;
     }
 
     @Identifier
+
     public String getBondid() {
         return bondid;
     }
 
-    public void setId(String bondid) {
+    public void setBondid(String bondid) {
         this.bondid = bondid;
     }
+
+    public String getEnhancedPrice() {
+        return enhancedPrice;
+    }
+
+    public void setEnhancedPrice(String enhancedPrice) {
+        this.enhancedPrice = enhancedPrice;
+    }
+
+    public String getOriginalPrice() {
+        return originalPrice;
+    }
+
+    public void setOriginalPrice(String originalPrice) {
+        this.originalPrice = originalPrice;
+    }
+
 
     public String getClassName() {
         return className;
     }
 
-    @TalkProperty
-    public String getPrice() {
-        return price;
-    }
 
-    public void setPrice(String price) {
-        this.price = price;
-    }
 
 //    @TalkProperty(name="ClassName")
 //    public String getClassName() {
