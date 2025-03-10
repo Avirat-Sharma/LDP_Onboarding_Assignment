@@ -44,7 +44,7 @@ public class EnhancedBondPriceConsumer {
         ArrayList<EnhancedBondPriceBean> enhancedBonds = new ArrayList<>();
 
         try {
-            ConsumerRecords<String, String> records = enhancedConsumer.poll(Duration.ofMillis(100));
+            ConsumerRecords<String, String> records = enhancedConsumer.poll(Duration.ofMillis(5000));
             for (ConsumerRecord<String, String> record : records) {
                 try {
                     logger.info("Received bond price -> Key: {}, Value: {}", record.key(), record.value());

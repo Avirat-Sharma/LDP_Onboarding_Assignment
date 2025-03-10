@@ -28,7 +28,7 @@ public class BondPriceConsumer {
         System.out.println("Starting the consumer");
         try {
 //            while (true) {
-                ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(100));
+                ConsumerRecords<String, String> records = consumer.poll(Duration.ofMillis(5000));
                 for (ConsumerRecord<String, String> record : records) {
                     try {
                         logger.info(" Received bond price -> Key: {}, Value: {}", record.key(), record.value());
