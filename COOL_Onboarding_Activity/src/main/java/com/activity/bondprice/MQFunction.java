@@ -48,7 +48,7 @@ public class MQFunction implements MQInterface {
         AsyncResultPromise<String> result = AsyncResults.create();
         try
         {
-            String queueName = "CONSUMED.DATA" + counter++;
+            String queueName = "ALL.CONSUMED_DATA.Avirat_Source." + counter++;
             var config = new MkvMQConf();
             this.queue = mqManager.create(queueName, queueType, config);
             result.success(queueName);
@@ -62,30 +62,33 @@ public class MQFunction implements MQInterface {
 
     @Override
     public AsyncResult<Void> pushData() throws JsonProcessingException, ExecutionException, InterruptedException, MkvException {
-        IMkvSupplyBuilder supplyBuilder = supplyBuilderFactory.create(queueType);
-//        Properties consumerProps1 = PropertiesProv.getConsumerProperties();
-//
-//        Properties producerProps = PropertiesProv.getProducerProperties();
-//
-//        ConsumerListener listener = new MyConsumerListener();
-//        Consumer consumer = new Consumer(consumerProps1, producerProps, listener);
-//
-//
-//
-//        consumer.start(queue, supplyBuilder);
+        AsyncResultPromise<Void> result = AsyncResults.create();
 
+//        result.success(null);
+        IMkvSupplyBuilder supplyBuilder = supplyBuilderFactory.create(queueType);
         try{
-            EnhancedBondPriceConsumer enhancedConsumer = new EnhancedBondPriceConsumer();
-            ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
-            for(EnhancedBondPriceBean enhancedBond:enhancedBonds){
-                supplyBuilder.setField("ID",enhancedBond.bondName);
-                supplyBuilder.setField("originalPrice",enhancedBond.originalPrice);
-                supplyBuilder.setField("enhancedPrice",enhancedBond.enhancedPrice);
+//            EnhancedBondPriceConsumer enhancedConsumer = new EnhancedBondPriceConsumer();
+//            ArrayList<EnhancedBondPriceBean> enhancedBonds = enhancedConsumer.getEnhancedBeans();
+//            for(EnhancedBondPriceBean enhancedBond:enhancedBonds){
+//                supplyBuilder.setField("ID",enhancedBond.bondName);
+//                supplyBuilder.setField("originalPrice",enhancedBond.originalPrice);
+//                supplyBuilder.setField("enhancedPrice",enhancedBond.enhancedPrice);
+//
+//                MkvSupply supply = supplyBuilder.getSupply();
+//                queue.put(supply,"Bond Added: "+ enhancedBond.bondName, MkvMQAction.ADD);
+//                queue.flush();
+//            }
+                supplyBuilder.setField("ID","abc");
+                supplyBuilder.setField("originalPrice","price");
+                supplyBuilder.setField("enhancedPrice","value113");
 
                 MkvSupply supply = supplyBuilder.getSupply();
-                queue.put(supply,"Bond Added: "+ enhancedBond.bondName, MkvMQAction.ADD);
+//                queue.put(MkvMQAction.BATCHSTART);
+            queue.put(supply,"Reord1", MkvMQAction.ADD);
+//            queue.put(MkvMQAction.BATCHEND);
+
                 queue.flush();
-            }
+//                queue.close(5);
         }catch (Exception e) {
             System.err.println("error: " + e.getMessage());
         } finally {
@@ -99,6 +102,7 @@ public class MQFunction implements MQInterface {
 
         System.out.println(queue.toString());
 //        queue.close(10);
-        return AsyncResults.create();
+        result.success(null);
+        return result;
     }
 }
