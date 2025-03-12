@@ -1,6 +1,5 @@
 package com.activity.xrs;
 
-
 import java.util.Hashtable;
 
 import com.iontrading.xrs.api.IContext;
@@ -15,16 +14,15 @@ import com.iontrading.xrs.api.IXRSObject;
  * The SnapshotModule and RealTimeModule can determine the set of the required values in a IXRSObject based on the user
  * request, thus an IXRSObject can be also "partially filled".
  * <p>
- * Recommended "tourist itinerary" for this sample: {@link Main} -> {@link MyStructureModule} ->
- * {@link MySnapshotModule} -> {@link MyRealTimeModule} -> <code>MyObject</code>
  */
-public class MyXRSObject implements IXRSObject {
+
+public class MyObject implements IXRSObject {
 
     private IContext ctx;
     private String id = "";
     private Hashtable<String, Comparable<?>> fields = new Hashtable<String, Comparable<?>>();
 
-    public MyXRSObject(String id, IContext context) throws NullPointerException {
+    public MyObject(String id, IContext context) throws NullPointerException {
         if (id == null || id.isEmpty()) {
             throw new NullPointerException("Empty value for MyObject Id is not allowed");
         } else {
@@ -65,11 +63,13 @@ public class MyXRSObject implements IXRSObject {
     }
 
     @Override
-    public MyXRSObject clone() {
-        MyXRSObject o = new MyXRSObject(getId(), ctx);
+    public MyObject clone() {
+        MyObject o = new MyObject(getId(), ctx);
         for (String k : fields.keySet()) {
             o.fields.put(k, fields.get(k));
         }
         return o;
     }
 }
+
+
